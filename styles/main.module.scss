@@ -1,0 +1,104 @@
+.container {
+  min-height: 100vh;
+  max-width: 1010px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  font-family: paralucent;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-top: 11px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-family: paralucent;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 55px;
+  margin-top: 40px;
+  span {
+    color: #ffffff;
+  }
+
+  @media (max-width: 600px) {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+.subhead {
+  margin-top: 60px;
+
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 600px) {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .projects,
+  .thoughts,
+  .about {
+    width: 31.95%;
+
+    a {
+      color: #ffffff;
+    }
+
+    @media (max-width: 600px) {
+
+      margin-top: 40px;
+      width: 100%;
+    }
+  }
+
+  .projects,
+  .thoughts {
+    a {
+      display: block;
+    }
+  }
+
+  .about {
+    width: 66%;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }
+
+  .projects {
+    a {
+      font-family: paralucent;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+
+  h2 {
+    font-family: paralucent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+}
