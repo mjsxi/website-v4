@@ -11,8 +11,8 @@ body {
   animation: bg-gradient 80s ease infinite;
 
   font-family: gt-sectra;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 29px;
 
   color: #373333;
 }
@@ -24,6 +24,11 @@ a {
   &:hover {
     opacity: 0.7;
   }
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 * {

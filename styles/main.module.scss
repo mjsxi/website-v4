@@ -1,5 +1,9 @@
+//#########################################
+//############### Main Page ###############
+//#########################################
+
 .container {
-  min-height: 100vh;
+  max-height: 100vh;
   max-width: 1010px;
   margin: 0 auto;
   padding: 0 20px;
@@ -22,15 +26,15 @@
   display: flex;
   justify-content: space-between;
 
-  opacity: 0;
-  visibility: hidden;
+  // opacity: 0;
+  // visibility: hidden;
 
   transition: all .3s;
 
-  &.active {
+  //&.active {
     opacity: 1;
     visibility: visible;
-  }
+  //}
 }
 
 .heading {
@@ -39,13 +43,13 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 55px;
-  margin-top: 40px;
+  margin-top: 100px;
   span {
     color: #ffffff;
   }
 
   @media (max-width: 600px) {
-    margin-top: 40px;
+    margin-top: 80px;
     font-size: 24px;
     line-height: 29px;
   }
@@ -90,6 +94,7 @@
 
     @media (max-width: 600px) {
       width: 100%;
+      margin-bottom: 80px;
     }
   }
 
@@ -97,8 +102,8 @@
     a {
       font-family: paralucent;
       font-weight: 600;
-      font-size: 28px;
-      line-height: 38px;
+      font-size: 32px;
+      line-height: 44px;
     }
   }
 
@@ -110,5 +115,75 @@
     line-height: 17px;
     margin-top: 0;
     margin-bottom: 24px;
+  }
+}
+
+//#########################################
+//############### projects ################
+//#########################################
+
+.proContainer {
+  position: absolute;
+  overflow: scroll;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255,255,255,1);
+  border-radius: 20px 20px 0px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  //backdrop-filter: blur(40px);
+
+  .proCotents {
+    max-width: 970px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  h3 {
+    font-family: Paralucent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 100px;
+    margin-bottom: 8px;
+    grid-column: 1 / span 5;
+
+    @media (max-width: 600px) {
+      margin-top: 40px;
+      font-size: 24px;
+      line-height: 29px;
+      grid-column: 1 / span 10;
+    }
+  }
+
+  h4 {
+    grid-column: 1 / span 6;
+    font-size: 20px;
+    line-height: 30px;
+
+    @media (max-width: 600px) {
+      grid-column: 1 / span 10;
+    }
+  }
+
+  img {
+    grid-column: 1 / span 10;
+
+    @media (max-width: 600px) {
+      grid-column: 1 / span 10;
+    }
+  }
+
+  p{
+    grid-column: 1 / span 6;
+
+    @media (max-width: 600px) {
+      grid-column: 1 / span 10;
+    }
   }
 }
