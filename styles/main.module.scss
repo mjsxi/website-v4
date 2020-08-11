@@ -3,11 +3,11 @@
 //#########################################
 
 .bgGradient {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
-  right: 0px;
-  bottom: 0px;
+  height: 101vh;
+  width: 101vw;
   z-index: -1;
 
   background: linear-gradient(45deg, #6385f2, #4de9f2, #b03ef0, #37f5ab);
