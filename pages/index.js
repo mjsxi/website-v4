@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import Head from 'next/head'
 import Link from 'next/link'
 import Nav from '../components/nav'
+import BgGradient from '../components/bgGradient'
 import MainPage from '../components/mainPage'
 import styles from '../styles/main.module.scss'
 
@@ -19,6 +20,8 @@ export default function Main() {
 
       <footer className={styles.footer}>
       </footer>
+
+      <BgGradient />
     </div>
   )
 }
