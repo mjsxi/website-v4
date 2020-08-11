@@ -48,10 +48,15 @@
     color: #ffffff;
   }
 
+  @media (max-width: 1010px) {
+    font-size: 4.65vw;
+    line-height: 5.5vw;
+  }
+
   @media (max-width: 600px) {
-    margin-top: 80px;
-    font-size: 24px;
-    line-height: 29px;
+    margin-top: 60px;
+    font-size: 8.15vw;
+    line-height: 9vw;
   }
 }
 
@@ -165,6 +170,7 @@
     grid-column: 1 / span 6;
     font-size: 20px;
     line-height: 30px;
+    font-weight: 400;
 
     @media (max-width: 600px) {
       grid-column: 1 / span 10;
@@ -172,6 +178,7 @@
   }
 
   img {
+    margin-bottom: 24px;
     grid-column: 1 / span 10;
 
     @media (max-width: 600px) {
@@ -180,10 +187,17 @@
   }
 
   p{
+    text-indent: 50px;
+    margin-top: 0px;
+    margin-bottom: 12px;
     grid-column: 1 / span 6;
 
     @media (max-width: 600px) {
       grid-column: 1 / span 10;
+    }
+
+    &:first-of-type {
+      text-indent: 0px;
     }
   }
 }
