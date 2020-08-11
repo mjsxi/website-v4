@@ -14,7 +14,6 @@ export default function Main() {
       </Head>
 
       <main className={styles.main}>
-        <Nav />
         <MainPage />
       </main>
 
