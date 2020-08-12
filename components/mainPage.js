@@ -11,7 +11,7 @@ const MainPage = () => (
       <div className={styles.projects}>
         <h2>projects</h2>
         <Link href="/projects/pinnacle">
-          <a>Pinnacle 3</a>
+          <a>Pinnacle</a>
         </Link>
         <Link href="/projects/parcel">
           <a>Parcel</a>

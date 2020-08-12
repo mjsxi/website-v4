@@ -6,13 +6,13 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  height: 101vh;
-  width: 101vw;
+  height: 200vh;
+  width: 100vw;
   z-index: -1;
 
   background: linear-gradient(45deg, #6385f2, #4de9f2, #b03ef0, #37f5ab);
   background-size: 400% 200%;
-  animation: bg-gradient 80s ease infinite;
+  animation: bg-gradient 90s ease infinite;
 }
 
 @keyframes bg-gradient {
@@ -49,20 +49,21 @@
   }
 
   @media (max-width: 600px) {
-    margin-top: 100px;
+    margin-top: 40px;
     font-size: 8.15vw;
     line-height: 9vw;
   }
 }
 
 .subhead {
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-bottom: 120px;
 
   display: flex;
   justify-content: space-between;
 
   @media (max-width: 600px) {
-    margin-top: 20px;
+    margin-top: 0px;
     flex-direction: column;
   }
 
@@ -114,7 +115,17 @@
     font-size: 14px;
     line-height: 17px;
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
+  }
+
+  p {
+    text-indent: 50px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+
+    &:first-of-type {
+      text-indent: 0px;
+    }
   }
 }
 
@@ -155,9 +166,15 @@
   bottom: 0;
   background: rgba(255,255,255,1);
   border-radius: 20px 20px 0px 0px;
+  padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 120px;
   //backdrop-filter: blur(40px);
+
+  @media (max-width: 600px) {
+    padding-top: 60px;
+  }
 
   .proCotents {
     max-width: 970px;
@@ -171,25 +188,27 @@
     font-family: Paralucent;
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
-    line-height: 48px;
-    margin-top: 100px;
-    margin-bottom: 8px;
+    font-size: 44px;
+    line-height: 52px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     grid-column: 1 / span 5;
 
     @media (max-width: 600px) {
-      margin-top: 40px;
-      font-size: 24px;
-      line-height: 29px;
+      font-size: 38px;
+      line-height: 48px;
       grid-column: 1 / span 10;
     }
   }
 
   h4 {
     grid-column: 1 / span 6;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 34px;
     font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    color: #808080;
 
     @media (max-width: 600px) {
       grid-column: 1 / span 10;
@@ -197,7 +216,8 @@
   }
 
   img {
-    margin-bottom: 24px;
+    margin-top: 24px;
+    margin-bottom: 36px;
     grid-column: 1 / span 10;
 
     @media (max-width: 600px) {
