@@ -1,10 +1,17 @@
-import '../styles/globals.scss'
+import { useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion'
+import Router from 'next/router'
 import BgGradient from '../components/bgGradient'
+import '../styles/globals.scss'
 
-
-
-function MyApp({ Component, pageProps, router }) {
+const MyApp = ({ Component, pageProps, router }) => {
+  useEffect(() => {
+    document.addEventListener('keydown', (e) => {
+      if (e.key == "Escape" || e.key === "27") {
+        Router.push('/');
+      }
+    });
+  }, []);
   return (
     <>
       <AnimatePresence>
@@ -12,7 +19,6 @@ function MyApp({ Component, pageProps, router }) {
       </AnimatePresence>
       <BgGradient />
     </>
-    )
+  )
 }
-
 export default MyApp
