@@ -16,9 +16,6 @@ export default function Main() {
       <main className={styles.main}>
         <MainPage />
       </main>
-
-      <footer className={styles.footer}>
-      </footer>
     </div>
   )
 }
