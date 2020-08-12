@@ -1,9 +1,18 @@
 import '../styles/globals.scss'
+import { AnimatePresence } from 'framer-motion'
+import BgGradient from '../components/bgGradient'
 
-function MyApp({ Component, pageProps }) {
+
+
+function MyApp({ Component, pageProps, router }) {
   return (
-    <Component {...pageProps} />
-  )
+    <>
+      <AnimatePresence>
+        <Component {...pageProps} key={router.route} />
+      </AnimatePresence>
+      <BgGradient />
+    </>
+    )
 }
 
 export default MyApp
