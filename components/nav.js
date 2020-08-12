@@ -18,7 +18,6 @@ const Nav = () => (
     }}
     transition={{
       default: { duration: .25 },
-      delay: .3
     }}
   >
     <Link href="/">
