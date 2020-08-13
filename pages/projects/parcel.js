@@ -36,9 +36,11 @@ export default function Main() {
           }}
         >
           <div className={styles.proCotents}>
-            <h3>parcel</h3>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis felis id diam pellentesque mollis.</h4>
+            <h3
+              className={styles.firstItem}
+            >parcel</h3>
             <img src="/assets/imgs/cat.jpg" alt="my image" />
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis felis id diam pellentesque mollis.</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis felis id diam pellentesque mollis. Fusce mollis varius lacus, vitae laoreet nulla. Fusce pharetra urna non placerat vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam ac tellus aliquam, maximus orci in, sollicitudin augue. Maecenas tincidunt ligula ut ipsum euismod eleifend. Proin at varius erat.</p>
             <p>Nulla sollicitudin vel ipsum quis sagittis. Maecenas risus nisi, varius in turpis non, pellentesque imperdiet ante. Curabitur non congue turpis, eu mollis mi. Nullam sollicitudin arcu sit amet augue interdum convallis. Maecenas at dictum leo. Praesent vel metus a felis efficitur pulvinar id a velit. Morbi eu consequat arcu. In purus quam, euismod eu mattis vel, laoreet vel libero. Aliquam eleifend a nunc nec venenatis. Vivamus a lorem luctus, luctus mauris nec, viverra ante. Morbi venenatis quis purus sit amet viverra.</p>
             <img src="/assets/imgs/cat.jpg" alt="my image" />
