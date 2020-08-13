@@ -36,11 +36,7 @@ export default function Main() {
           }}
         >
           <div className={styles.proCotents}>
-            <img
-              className={styles.fullWidth}
-              src="/assets/imgs/cat.jpg"
-              alt="my image"
-            />
+            <img src="/assets/imgs/cat.jpg" alt="my image" />
             <h3>resonance</h3>
             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis felis id diam pellentesque mollis.</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis felis id diam pellentesque mollis. Fusce mollis varius lacus, vitae laoreet nulla. Fusce pharetra urna non placerat vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam ac tellus aliquam, maximus orci in, sollicitudin augue. Maecenas tincidunt ligula ut ipsum euismod eleifend. Proin at varius erat.</p>

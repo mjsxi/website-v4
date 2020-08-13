@@ -36,14 +36,9 @@ export default function Main() {
           }}
         >
           <div className={styles.proCotents}>
-            <h3
-              className={styles.firstItem}
-            >chorus</h3>
+            <h3>chorus</h3>
             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis felis id diam pellentesque mollis.</h4>
-            <div className={styles.twoUp}>
-              <img src="/assets/imgs/cat.jpg" alt="my image" />
-              <img src="/assets/imgs/cat.jpg" alt="my image" />
-            </div>
+            <img src="/assets/imgs/cat.jpg" alt="my image" />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis felis id diam pellentesque mollis. Fusce mollis varius lacus, vitae laoreet nulla. Fusce pharetra urna non placerat vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam ac tellus aliquam, maximus orci in, sollicitudin augue. Maecenas tincidunt ligula ut ipsum euismod eleifend. Proin at varius erat.</p>
             <p>Nulla sollicitudin vel ipsum quis sagittis. Maecenas risus nisi, varius in turpis non, pellentesque imperdiet ante. Curabitur non congue turpis, eu mollis mi. Nullam sollicitudin arcu sit amet augue interdum convallis. Maecenas at dictum leo. Praesent vel metus a felis efficitur pulvinar id a velit. Morbi eu consequat arcu. In purus quam, euismod eu mattis vel, laoreet vel libero. Aliquam eleifend a nunc nec venenatis. Vivamus a lorem luctus, luctus mauris nec, viverra ante. Morbi venenatis quis purus sit amet viverra.</p>
             <p>Nunc vel mi id urna tincidunt efficitur. Fusce faucibus nisi ac diam porttitor, at fermentum nisi congue. Curabitur dui est, fringilla consequat urna id, commodo ultricies nisi. Sed velit mi, posuere in euismod ac, egestas non orci. Nullam et dui ullamcorper, dictum massa non, condimentum sapien. Donec tincidunt a turpis nec venenatis. Vivamus dictum tellus non sem ornare, ut ornare felis malesuada. Cras sodales ex eros, at pellentesque ex tincidunt ornare. Suspendisse eu tempus ipsum. Aenean venenatis risus turpis, in viverra sem placerat a. Mauris dictum maximus mi eget vehicula. Donec lorem felis, fermentum at commodo ac, cursus vel augue. Vestibulum a augue aliquet, egestas neque ut, blandit eros. Vivamus tempus velit in purus laoreet ultricies. Curabitur vel pellentesque nulla.</p>
