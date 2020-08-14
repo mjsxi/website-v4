@@ -5,26 +5,28 @@ import styles from '../styles/main.module.scss'
 const MainPage = () => (
   <div>
     <div className={styles.heading}>
-      <span>matt sullivan</span> is a product designer in NYC focusing on building out design systems and building up teams to achieve success with empathy, understanding, and support.
+      <h1><span>matt sullivan</span> is a product designer in NYC focusing on building out design systems and building up teams to achieve success with empathy, understanding, and support.</h1>
     </div>
     <div className={styles.subhead}>
       <div className={styles.projects}>
         <h2>projects</h2>
-        <Link href="/projects/pinnacle">
-          <a>Pinnacle</a>
-        </Link>
-        <Link href="/projects/parcel">
-          <a>Parcel</a>
-        </Link>
-        <Link href="/projects/chorus">
-          <a>Chorus</a>
-        </Link>
-        <Link href="/projects/resonance">
-          <a>Resonance</a>
-        </Link>
-        <Link href="/projects/hymnal">
-          <a>Hymnal</a>
-        </Link>
+        <ul>
+          <Link href="/projects/pinnacle">
+            <li><a>Pinnacle</a></li>
+          </Link>
+          <Link href="/projects/parcel">
+            <li><a>Parcel</a></li>
+          </Link>
+          <Link href="/projects/chorus">
+            <li><a>Chorus</a></li>
+          </Link>
+          <Link href="/projects/resonance">
+            <li><a>Resonance</a></li>
+          </Link>
+          <Link href="/projects/hymnal">
+            <li><a>Hymnal</a></li>
+          </Link>
+        </ul>
       </div>
       <div className={styles.about}>
         <h2>about</h2>

@@ -34,12 +34,14 @@ img {
   font-family: paralucent;
   src: url('/assets/fonts/paralucent-bold.woff');
   font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
   font-family: gt-sectra;
   src: url('/assets/fonts/gt-sectra-regular.woff');
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -47,4 +49,5 @@ img {
   src: url('/assets/fonts/gt-sectra-regular-italic.woff');
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
