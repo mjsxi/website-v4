@@ -10,6 +10,10 @@ export default function Main() {
   return (
     <div id='projects' className={styles.container}>
       <Head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Matt Sullivan's personal portfolio site" />
+        <meta name="keywords" content="designer, product design, design systems, matt sullivan" />
+        <meta name="author" content="Matt Sullivan" />
         <title>matt sullivan</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -51,7 +55,7 @@ export default function Main() {
             <p>Suspendisse ut fermentum ex. Mauris felis turpis, scelerisque quis sagittis a, commodo eget lectus. Nam vehicula eleifend velit at facilisis. Curabitur efficitur ex vel condimentum ornare. Donec eget purus pellentesque, ullamcorper enim at, vestibulum mi. Nulla facilisi. Vestibulum cursus turpis eu nibh maximus viverra. Aliquam ut iaculis nibh, nec iaculis felis. Cras nisi sem, pulvinar vitae consequat id, ullamcorper non erat. Morbi vitae lorem sit amet libero sodales commodo nec eleifend nulla.</p>
           </div>
         </motion.div>
-
+        
       </main>
       <BgGradient />
     </div>
