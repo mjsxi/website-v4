@@ -9,7 +9,6 @@ export default function Main() {
   return (
     <div className={styles.container}>
       <Head>
-        <meta charset="UTF-8" />
         <meta name="description" content="Matt Sullivan's personal portfolio site" />
         <meta name="keywords" content="designer, product design, design systems, matt sullivan" />
         <meta name="author" content="Matt Sullivan" />
