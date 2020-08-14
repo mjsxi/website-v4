@@ -47,21 +47,24 @@
     font-weight: 600;
     font-size: 48px;
     line-height: 55px;
+
+    @media (max-width: 1010px) {
+      font-size: 4.65vw;
+      line-height: 5.5vw;
+    }
+
+    @media (max-width: 728px) {
+      font-size: 8.15vw;
+      line-height: 9vw;
+    }
   }
 
   span {
     color: #ffffff;
   }
 
-  @media (max-width: 1010px) {
-    font-size: 4.65vw;
-    line-height: 5.5vw;
-  }
-
   @media (max-width: 728px) {
     margin-top: 40px;
-    font-size: 8.15vw;
-    line-height: 9vw;
   }
 }
 
@@ -87,7 +90,6 @@
     }
 
     @media (max-width: 728px) {
-
       margin-top: 40px;
       width: 100%;
     }
