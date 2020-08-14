@@ -14,7 +14,7 @@ const MyApp = ({ Component, pageProps, router }) => {
   }, []);
   return (
     <>
-      <AnimatePresence>
+      <AnimatePresence initial={false} exitBeforeEnter>
         <Component {...pageProps} key={router.route} />
       </AnimatePresence>
       <BgGradient />
