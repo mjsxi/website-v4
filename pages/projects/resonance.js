@@ -38,18 +38,95 @@ export default function Main() {
           }}
         >
           <div className={styles.proCotents}>
+
             <img
               className={styles.fullWidth}
-              src="/assets/imgs/cat.jpg"
-              alt="my image"
+              src="/assets/imgs/hymnal-logo.png"
+              alt="the hymnal apps logo"
             />
+
             <h3>resonance</h3>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis felis id diam pellentesque mollis.</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis felis id diam pellentesque mollis. Fusce mollis varius lacus, vitae laoreet nulla. Fusce pharetra urna non placerat vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam ac tellus aliquam, maximus orci in, sollicitudin augue. Maecenas tincidunt ligula ut ipsum euismod eleifend. Proin at varius erat.</p>
-            <p>Nulla sollicitudin vel ipsum quis sagittis. Maecenas risus nisi, varius in turpis non, pellentesque imperdiet ante. Curabitur non congue turpis, eu mollis mi. Nullam sollicitudin arcu sit amet augue interdum convallis. Maecenas at dictum leo. Praesent vel metus a felis efficitur pulvinar id a velit. Morbi eu consequat arcu. In purus quam, euismod eu mattis vel, laoreet vel libero. Aliquam eleifend a nunc nec venenatis. Vivamus a lorem luctus, luctus mauris nec, viverra ante. Morbi venenatis quis purus sit amet viverra.</p>
-            <p>Nunc vel mi id urna tincidunt efficitur. Fusce faucibus nisi ac diam porttitor, at fermentum nisi congue. Curabitur dui est, fringilla consequat urna id, commodo ultricies nisi. Sed velit mi, posuere in euismod ac, egestas non orci. Nullam et dui ullamcorper, dictum massa non, condimentum sapien. Donec tincidunt a turpis nec venenatis. Vivamus dictum tellus non sem ornare, ut ornare felis malesuada. Cras sodales ex eros, at pellentesque ex tincidunt ornare. Suspendisse eu tempus ipsum. Aenean venenatis risus turpis, in viverra sem placerat a. Mauris dictum maximus mi eget vehicula. Donec lorem felis, fermentum at commodo ac, cursus vel augue. Vestibulum a augue aliquet, egestas neque ut, blandit eros. Vivamus tempus velit in purus laoreet ultricies. Curabitur vel pellentesque nulla.</p>
-            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non ullamcorper magna. Nullam ornare nibh eget metus tincidunt, quis ultricies quam fringilla. Quisque mattis malesuada diam vitae tristique. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur id semper dui. Vivamus nec gravida justo, non lacinia velit. Ut venenatis nunc laoreet, dapibus nisi ut, ultricies dui.</p>
-            <p>Suspendisse ut fermentum ex. Mauris felis turpis, scelerisque quis sagittis a, commodo eget lectus. Nam vehicula eleifend velit at facilisis. Curabitur efficitur ex vel condimentum ornare. Donec eget purus pellentesque, ullamcorper enim at, vestibulum mi. Nulla facilisi. Vestibulum cursus turpis eu nibh maximus viverra. Aliquam ut iaculis nibh, nec iaculis felis. Cras nisi sem, pulvinar vitae consequat id, ullamcorper non erat. Morbi vitae lorem sit amet libero sodales commodo nec eleifend nulla.</p>
+            <h4>this project is for vox medias home grown ad building platform, all the ads built for concert and all sites on chorus used this tool to build and serve up ads to millions of users.</h4>
+
+            <p>in 2016 the revenue product team set out to evaluate our internal tools and found one of the main product offerings had grown stale as a product and user flows were being affected negatively by it. The tool, which runs all of vox media's premium ads across multiple networks, had not grown with new and bigger demands and needed some rethinking to get things done in a more efficient and easier way.</p>
+            <p>the hope was to make creating and building ads much easier along with reducing the user friction at certain pain points in the creation by rethinking and modernizing the tool.</p>
+
+            <img
+              src="/assets/imgs/hymnal-ad-overview.jpg"
+              alt="the hymnal apps main screen"
+            />
+            <cite>the main screen when looking at a hymnal made ad</cite>
+
+            <h5>high level goals</h5>
+
+            <p>
+              <ul>
+                <li>reduce User Friction within the app</li>
+                <li>refresh User flow and rethink how new ads are built</li>
+                <li>reduce build times to decrease per ad cost</li>
+              </ul>
+            </p>
+
+            <h5>jumping off point</h5>
+
+            <p>hymnal was brought into the world in 2014 and was a quick experiment by a few engineers as a proof of concept built using rails and bootstrap 2 without any design input (lolsob). Fast forward a few years and it was supporting nearly one hundred users and millions of dollars and grew to be one of vox media’s main lines of business. Due to user frustration hymnal was slated for a massive overhaul with a design lead rework.</p>
+
+            <h5>initial findings and resolutions</h5>
+
+            <p>this project initially began as a simple refresh but once the team and I started talking to the users it soon came to light that the very nature of how we build ads was the biggest pain point — from uploading assets to managing them, it was all a mess. We started by asking a small sample of users to go through their workflow and noticed many of them weren’t aware of what they could edit within any given ad or how to manage assets — a design failure of the tool, as this information wasn’t being surfaced to them.</p>
+
+            <p>this led us to a tricky solve to display what things could be added/manipulated within an ad but not clutter things as to make it distracting.</p>
+
+            <p>we resolved this by reworking the tool to use a navigation system derived from a computer file system and popular code editors — this made it easy for users to see what options were available and leaned into things they were currently using along with letting us organize the information presented to users so they could easily and efficiently work through creating an ad on our platform.</p>
+
+            <img
+              src="/assets/imgs/hymnal-ad-fields.jpg"
+              alt="the hymnal apps asset field"
+            />
+            <cite>this is hymnals asset population fields, users would add assets to build our ads from this view</cite>
+
+            <img
+              src="/assets/imgs/hymnal-ad-code.jpg"
+              alt="the hymnal apps main screen"
+            />
+            <cite>this is hymnals code panel, users would add fuctionality and interactivity to our ads from this view</cite>
+
+            <img
+              src="/assets/imgs/hymnal-ad-split-view.jpg"
+              alt="the hymnal apps main screen"
+            />
+            <cite>a split view to help users when hopping between assets and code views in quick succession</cite>
+
+            <h5>favorite change</h5>
+
+            <p>with the updated user flow and work process we were able to reduce the time it takes to create ads by about half; the most dramatic was an ad that had taken about 4 hours to make was cut down to about 1.5 hours.</p>
+
+            <img
+              src="/assets/imgs/hymnal-ad-testing.jpg"
+              alt="the hymnal apps main screen"
+            />
+            <cite>all of hymnals ads were responsive and we needed a way to test how they looked at various breakpoints</cite>
+
+            <h5>lessons learned</h5>
+
+            <p>
+              <ul>
+                <li>people have a hard time articulating issues with interfaces they’ve grown accustomed to using so proper context is needed to fish for what is bothering users.</li>
+                <li>be ready for ideas to fail, assumptions are only as good as their testing and while you have ideas you think will have legs, some user testing will tell you otherwise.</li>
+                <li>failure is a great tool in learning and is often how I came to some of my best ideas.</li>
+              </ul>
+            </p>
+
+            <h5>future improvements</h5>
+
+            <p>
+              <ul>
+                <li>this redesign focused mostly on the creation and edit process and other parts of the app have not been addressed such as information organization, traversale within the system and other critical path issues within the experience.</li>
+                <li>looking into what this would be like on mobile — even as just a read only or cut down feature set since it doesn’t need parity with the desktop version.</li>
+                <li>further ui/user flow improvements to help speed things up further.</li>
+              </ul>
+            </p>
+
           </div>
         </motion.div>
 
