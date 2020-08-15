@@ -10,7 +10,7 @@ export default function Main() {
   return (
     <div id='projects' className={styles.container}>
       <Head>
-        <meta name="description" content="Matt Sullivan's personal portfolio site" />
+        <meta name="description" content="chorus project brief" />
         <meta name="keywords" content="designer, product design, design systems, matt sullivan" />
         <meta name="author" content="Matt Sullivan" />
         <title>matt sullivan</title>

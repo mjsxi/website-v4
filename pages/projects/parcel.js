@@ -10,9 +10,9 @@ export default function Main() {
   return (
     <div id='projects' className={styles.container}>
       <Head>
-        <meta name="description" content="Matt Sullivan's personal portfolio site" />
-        <meta name="keywords" content="designer, product design, design systems, matt sullivan" />
-        <meta name="author" content="Matt Sullivan" />
+        <meta name="description" content="parcel project brief" />
+        <meta name="keywords" content="designer, product design, design systems, matt sullivan, parcel" />
+        <meta name="author" content="matt sullivan" />
         <title>matt sullivan</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
