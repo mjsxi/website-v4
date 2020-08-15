@@ -10,9 +10,9 @@
   width: 100vw;
   z-index: -1;
 
-  background: linear-gradient(45deg, #6385f2, #6debf2, #c472f2, #37f5ab);
+  background: linear-gradient(45deg, #6385f2, #6dd5e3, #c472f2, #37f5ab);
   background-size: 400% 200%;
-  animation: bg-gradient 90s ease infinite;
+  animation: bg-gradient 120s ease infinite;
 }
 
 @keyframes bg-gradient {
