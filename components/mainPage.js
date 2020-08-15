@@ -19,7 +19,7 @@ const MainPage = () => (
         transition={{
           default: {
             duration: .3,
-            delay: .3},
+            delay: .4},
         }}
       >
         <span>hi im matt sullivan</span>, a product designer in nyc, my main focus is around empowering teams and building out design systems. I enjoy helping others, and designing products through listening and empathy.
@@ -41,7 +41,7 @@ const MainPage = () => (
         transition={{
           default: {
             duration: .3,
-            delay: .4},
+            delay: .5},
         }}
       >
         <h2>projects</h2>
@@ -78,7 +78,7 @@ const MainPage = () => (
         transition={{
           default: {
             duration: .3,
-            delay: .5},
+            delay: .6},
         }}
       >
         <h2>about</h2>
