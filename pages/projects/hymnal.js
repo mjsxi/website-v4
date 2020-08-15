@@ -53,7 +53,6 @@ export default function Main() {
         </motion.div>
 
       </main>
-      <BgGradient />
     </div>
   )
 }
