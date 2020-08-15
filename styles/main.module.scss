@@ -156,7 +156,11 @@
 //#########################################
 
 .nav {
-  width: 970px;
+  position: fixed;
+  width: 100vw;
+  max-width: 970px;
+  top: 0px;
+  left: calc((100vw - 970px)/2);;
   font-family: paralucent;
   font-style: normal;
   font-weight: 600;
@@ -171,7 +175,7 @@
   opacity: 1;
 
   @media (max-width: 1010px) {
-    width: calc(100% - 40px);
+    width: calc(100vw - 40px);
     left: 20px;
     right: 20px;
   }
