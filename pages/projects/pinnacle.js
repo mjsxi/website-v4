@@ -41,7 +41,7 @@ export default function Main() {
 
             <img
               className={styles.fullWidth}
-              src="/assets/imgs/hymnal-logo.png"
+              src="/assets/imgs/hymnal-header.png"
               alt="the hymnal apps logo"
             />
 
