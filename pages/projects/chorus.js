@@ -14,12 +14,11 @@ export default function Main() {
         <meta name="keywords" content="designer, product design, design systems, matt sullivan" />
         <meta name="author" content="Matt Sullivan" />
         <title>matt sullivan</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main className={styles.main}>
         <Nav />
-        <MainPage />
 
         <motion.div
           className={styles.proContainer}
