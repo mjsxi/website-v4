@@ -41,7 +41,7 @@ export default function Main() {
 
             <img
               className={styles.fullWidth}
-              src="/assets/imgs/resonance-header.png"
+              src="/assets/imgs/resonance-header.jpg"
               alt="a collection of resonance components"
             />
 

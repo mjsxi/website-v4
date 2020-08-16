@@ -41,7 +41,7 @@ export default function Main() {
 
             <img
               className={styles.fullWidth}
-              src="/assets/imgs/hymnal-header.png"
+              src="/assets/imgs/pinnacle-header.jpg"
               alt="the hymnal apps logo"
             />
 
