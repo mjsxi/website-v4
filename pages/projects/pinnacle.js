@@ -52,7 +52,7 @@ export default function Main() {
             <p>the hope was to make creating and building ads much easier along with reducing the user friction at certain pain points in the creation by rethinking and modernizing the tool.</p>
 
             <img
-              src="/assets/imgs/hymnal-ad-overview.jpg"
+              src="/assets/imgs/pinnacle-cards.jpg"
               alt="the hymnal apps main screen"
             />
             <cite>the main screen when looking at a hymnal made ad</cite>
@@ -71,6 +71,12 @@ export default function Main() {
 
             <p>hymnal was brought into the world in 2014 and was a quick experiment by a few engineers as a proof of concept built using rails and bootstrap 2 without any design input (lolsob). Fast forward a few years and it was supporting nearly one hundred users and millions of dollars and grew to be one of vox media’s main lines of business. Due to user frustration hymnal was slated for a massive overhaul with a design lead rework.</p>
 
+            <img
+              src="/assets/imgs/pinnacle-articles.jpg"
+              alt="the hymnal apps asset field"
+            />
+            <cite>this is hymnals asset population fields, users would add assets to build our ads from this view</cite>
+
             <h5>initial findings and resolutions</h5>
 
             <p>this project initially began as a simple refresh but once the team and I started talking to the users it soon came to light that the very nature of how we build ads was the biggest pain point — from uploading assets to managing them, it was all a mess. We started by asking a small sample of users to go through their workflow and noticed many of them weren’t aware of what they could edit within any given ad or how to manage assets — a design failure of the tool, as this information wasn’t being surfaced to them.</p>
@@ -80,29 +86,17 @@ export default function Main() {
             <p>we resolved this by reworking the tool to use a navigation system derived from a computer file system and popular code editors — this made it easy for users to see what options were available and leaned into things they were currently using along with letting us organize the information presented to users so they could easily and efficiently work through creating an ad on our platform.</p>
 
             <img
-              src="/assets/imgs/hymnal-ad-fields.jpg"
-              alt="the hymnal apps asset field"
-            />
-            <cite>this is hymnals asset population fields, users would add assets to build our ads from this view</cite>
-
-            <img
-              src="/assets/imgs/hymnal-ad-code.jpg"
+              src="/assets/imgs/pinnacle-elements.jpg"
               alt="the hymnal apps main screen"
             />
-            <cite>this is hymnals code panel, users would add fuctionality and interactivity to our ads from this view</cite>
-
-            <img
-              src="/assets/imgs/hymnal-ad-split-view.jpg"
-              alt="the hymnal apps main screen"
-            />
-            <cite>a split view to help users when hopping between assets and code views in quick succession</cite>
+            <cite>all of hymnals ads were responsive and we needed a way to test how they looked at various breakpoints</cite>
 
             <h5>favorite change</h5>
 
             <p>with the updated user flow and work process we were able to reduce the time it takes to create ads by about half; the most dramatic was an ad that had taken about 4 hours to make was cut down to about 1.5 hours.</p>
 
             <img
-              src="/assets/imgs/hymnal-ad-testing.jpg"
+              src="/assets/imgs/pinnacle-video.jpg"
               alt="the hymnal apps main screen"
             />
             <cite>all of hymnals ads were responsive and we needed a way to test how they looked at various breakpoints</cite>
