@@ -48,6 +48,18 @@ export default function Main() {
             <h3>chorus</h3>
             <h4>this brief is for chorus, vox media’s content management system (cms). chorus helps power content across vox’s eight brands and over 300 websites daily.</h4>
 
+            <h5>contributions</h5>
+
+            <p>
+              <ul>
+                <li>user research</li>
+                <li>ux/ui design</li>
+                <li>feature development</li>
+              </ul>
+            </p>
+
+            <h5>overview</h5>
+
             <p>chorus was an ambitious project undertaken by vox media to help revolutionize the way stories were published on their platforms. this goal was overwhelmingly successful in comparison with offerings from its peers. i was fortunate enough to join the chorus team for over half a year, getting to contribute to story editing and asset management.</p>
 
             <img

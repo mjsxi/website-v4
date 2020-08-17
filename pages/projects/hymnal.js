@@ -48,6 +48,18 @@ export default function Main() {
             <h3>hymnal</h3>
             <h4>this brief is for vox media’s home grown ad building platform. all the ads were built for concert. all sites running on chorus used this tool to build and serve ads to millions of users.</h4>
 
+            <h5>contributions</h5>
+
+            <p>
+              <ul>
+                <li>user research</li>
+                <li>ux/ui design</li>
+                <li>product strategy</li>
+              </ul>
+            </p>
+
+            <h5>overview</h5>
+
             <p>in 2016, the revenue product team set out to evaluate our internal tools and found one of the main product offerings had grown stale, as product and user flows were being affected negatively by it. the tool, which runs all of vox media's premium ads across multiple networks, was not meeting the demands of its users and needed to be updated to reflect its usage.</p>
 
             <p>the goal was to make creating and building ads a better experience along with reducing user friction at certain pain points in the ad execution process by rethinking and modernizing the tool.</p>

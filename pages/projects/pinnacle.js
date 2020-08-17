@@ -48,6 +48,20 @@ export default function Main() {
             <h3>pinnacle</h3>
             <h4>this brief is for pinnacle^3, from which the framework of all group nine media sites are built upon. this project is ongoing and we are currently in the process of updating and modernizing to our third version.</h4>
 
+            <h5>contributions</h5>
+
+            <p>
+              <ul>
+                <li>design systems development</li>
+                <li>component design and feedback</li>
+                <li>overseeing design contributions</li>
+                <li>user research</li>
+                <li>team goals and strategy</li>
+              </ul>
+            </p>
+
+            <h5>overview</h5>
+
             <p>in the summer of 2019, group nine embarked on updating its owned and operated sites to bring it up to date with modern web standards. due to reworking the core of our sites, we wanted to reevaluate how we were approaching design at scale. with pinnacle^2, each brand was isolated and was unable to share components with the other brands.</p>
 
             <p>with the next version of pinnacle, it was imperative that all components designed for one brand could easily be transferred to another brand. this reduces the level of effort required for long-term maintainability and new feature additions. currently, we are in the process of building up pinnacle^3 to address these issues.</p>

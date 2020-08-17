@@ -48,6 +48,19 @@ export default function Main() {
             <h3>resonance</h3>
             <h4>this brief is for vox media’s tools design system. this is used across all of the company’s internal products as a way to help lower the barrier for engineers and designers to deliver on new ideas.</h4>
 
+            <h5>contributions</h5>
+
+            <p>
+              <ul>
+                <li>design systems development</li>
+                <li>component design</li>
+                <li>system organization and structure</li>
+                <li>system utilization and flow</li>
+              </ul>
+            </p>
+
+            <h5>overview</h5>
+
             <p>as vox media was expanding, the amount of tools it was producing for internal use grew and we were finding that products were not matching up, thus creating differing experiences across tools. because of this, we focused on unifying what our tools looked like so that users’ expectations while moving from product to product was the same.</p>
 
             <p>resonance was made in order to help us to solve this need for vox media and its brands.</p>

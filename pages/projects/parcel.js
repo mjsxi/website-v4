@@ -48,6 +48,21 @@ export default function Main() {
             <h3>parcel</h3>
             <h4>this brief is for group nine media’s video intelligence system. parcel’s intended use is to highlight video trends and track user engagement metrics.</h4>
 
+            <h5>contributions</h5>
+
+            <p>
+              <ul>
+                <li>design systems development</li>
+                <li>component design</li>
+                <li>user research</li>
+                <li>goal setting</li>
+                <li>product strategy</li>
+                <li>feature development</li>
+              </ul>
+            </p>
+
+            <h5>overview</h5>
+
             <p>in late 2017, as group nine media pivoted into producing more video content, they realized they needed a way to help track and find trends across their audience engagement. parcel initially started as a place to house all the videos produced by group nine, but eventually expanded to servicing metrics on a per-video basis.</p>
 
             <p>when i joined the project, we noticed a few inconsistencies. we wanted to address them by building out a design system. our goal was then to extend them out to other tools in the organization.</p>
