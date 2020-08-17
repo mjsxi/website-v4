@@ -42,72 +42,69 @@ export default function Main() {
             <img
               className={styles.fullWidth}
               src="/assets/imgs/pinnacle-header.jpg"
-              alt="the hymnal apps logo"
+              alt="the pinnacle system logo"
             />
 
             <h3>pinnacle</h3>
-            <h4>this project is for vox medias home grown ad building platform, all the ads built for concert and all sites on chorus used this tool to build and serve up ads to millions of users.</h4>
+            <h4>this brief is for pinnacle^3, from which the framework of all group nine media sites are built upon. this project is ongoing and we are currently in the process of updating and modernizing to our third version.</h4>
 
-            <p>in 2016 the revenue product team set out to evaluate our internal tools and found one of the main product offerings had grown stale as a product and user flows were being affected negatively by it. The tool, which runs all of vox media's premium ads across multiple networks, had not grown with new and bigger demands and needed some rethinking to get things done in a more efficient and easier way.</p>
-            <p>the hope was to make creating and building ads much easier along with reducing the user friction at certain pain points in the creation by rethinking and modernizing the tool.</p>
+            <p>in the summer of 2019, group nine embarked on updating its owned and operated sites to bring it up to date with modern web standards. due to reworking the core of our sites, we wanted to reevaluate how we were approaching design at scale. with pinnacle^2, each brand was isolated and was unable to share components with the other brands.</p>
+
+            <p>with the next version of pinnacle, it was imperative that all components designed for one brand could easily be transferred to another brand. this reduces the level of effort required for long-term maintainability and new feature additions. currently, we are in the process of building up pinnacle^3 to address these issues.</p>
 
             <img
-              src="/assets/imgs/pinnacle-cards.jpg"
-              alt="the hymnal apps main screen"
+              src="/assets/imgs/pinnacle-elements.jpg"
+              alt="an example of smaller elements in pinnacle"
             />
-            <cite>the main screen when looking at a hymnal made ad</cite>
+            <cite>a small collection of elements themed to be used on group nines brands</cite>
 
             <h5>high level goals</h5>
 
             <p>
               <ul>
-                <li>reduce User Friction within the app</li>
-                <li>refresh User flow and rethink how new ads are built</li>
-                <li>reduce build times to decrease per ad cost</li>
+                <li>improve ability to share designs/features across all brands.</li>
+                <li>optimize pages to better utilize pinnacle^2’s more successful elements.</li>
+                <li>better unity between design and engineering’s needs for a more seamless handoff.</li>
               </ul>
             </p>
 
             <h5>jumping off point</h5>
 
-            <p>hymnal was brought into the world in 2014 and was a quick experiment by a few engineers as a proof of concept built using rails and bootstrap 2 without any design input (lolsob). Fast forward a few years and it was supporting nearly one hundred users and millions of dollars and grew to be one of vox media’s main lines of business. Due to user frustration hymnal was slated for a massive overhaul with a design lead rework.</p>
+            <p>over the past few years, group nine has been using a system called pinnacle^2 to manage our site’s front end. as time has progressed, we were finding that its ability to match our needs was not being met. because of this, we decided to rework our platform with an updated version built to be more modular along with addressing load times to better meet our audience where they are.</p>
 
             <img
-              src="/assets/imgs/pinnacle-articles.jpg"
-              alt="the hymnal apps asset field"
+              src="/assets/imgs/pinnacle-cards.jpg"
+              alt="pinnacles content cards themed for each brand"
             />
-            <cite>this is hymnals asset population fields, users would add assets to build our ads from this view</cite>
+            <cite>one of pinnacles components themed to demonstrate its flexibilty across brands</cite>
 
             <h5>initial findings and resolutions</h5>
 
-            <p>this project initially began as a simple refresh but once the team and I started talking to the users it soon came to light that the very nature of how we build ads was the biggest pain point — from uploading assets to managing them, it was all a mess. We started by asking a small sample of users to go through their workflow and noticed many of them weren’t aware of what they could edit within any given ad or how to manage assets — a design failure of the tool, as this information wasn’t being surfaced to them.</p>
+            <p>we were finding our page loads were inhibiting our audience’s interactions with the content we were producing. as we were looking for solutions, engineers were flagging concerns that our tech stack was becoming hard to work with due to all of the legacy elements restricting our options.</p>
 
-            <p>this led us to a tricky solve to display what things could be added/manipulated within an ad but not clutter things as to make it distracting.</p>
+            <p>due to poor page loading speeds and our engineers having to hack together solutions due to an outdated code base, we decided to rework of our front-end system from the ground up.</p>
 
-            <p>we resolved this by reworking the tool to use a navigation system derived from a computer file system and popular code editors — this made it easy for users to see what options were available and leaned into things they were currently using along with letting us organize the information presented to users so they could easily and efficiently work through creating an ad on our platform.</p>
+            <p>we have taken many steps to fix our initial findings and have resolved a majority of the issues found. however, we have not resolved everything; but as we keep making optimizations and updates within pinnacle^3 we will continue to build upon it to meet our needs.</p>
+
+            <p>as of today we have moved most of our sites to the new framework and are looking forward to moving the rest.</p>
 
             <img
-              src="/assets/imgs/pinnacle-elements.jpg"
-              alt="the hymnal apps main screen"
+              src="/assets/imgs/pinnacle-articles.jpg"
+              alt="pinnacles articles themed per brand"
             />
-            <cite>all of hymnals ads were responsive and we needed a way to test how they looked at various breakpoints</cite>
-
-            <h5>favorite change</h5>
-
-            <p>with the updated user flow and work process we were able to reduce the time it takes to create ads by about half; the most dramatic was an ad that had taken about 4 hours to make was cut down to about 1.5 hours.</p>
+            <cite>example of article components themed for some of group nines brands</cite>
 
             <img
               src="/assets/imgs/pinnacle-video.jpg"
-              alt="the hymnal apps main screen"
+              alt="pinnacles video nodes themed per brand"
             />
-            <cite>all of hymnals ads were responsive and we needed a way to test how they looked at various breakpoints</cite>
+            <cite>example of video node components themed for some of group nines brands</cite>
 
             <h5>lessons learned</h5>
 
             <p>
               <ul>
-                <li>people have a hard time articulating issues with interfaces they’ve grown accustomed to using so proper context is needed to fish for what is bothering users.</li>
-                <li>be ready for ideas to fail, assumptions are only as good as their testing and while you have ideas you think will have legs, some user testing will tell you otherwise.</li>
-                <li>failure is a great tool in learning and is often how I came to some of my best ideas.</li>
+                <li>good work and a good foundation takes time.</li>
               </ul>
             </p>
 
@@ -115,9 +112,7 @@ export default function Main() {
 
             <p>
               <ul>
-                <li>this redesign focused mostly on the creation and edit process and other parts of the app have not been addressed such as information organization, traversale within the system and other critical path issues within the experience.</li>
-                <li>looking into what this would be like on mobile — even as just a read only or cut down feature set since it doesn’t need parity with the desktop version.</li>
-                <li>further ui/user flow improvements to help speed things up further.</li>
+                <li>not very applicable as this project is still ongoing.</li>
               </ul>
             </p>
 
