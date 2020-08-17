@@ -42,78 +42,76 @@ export default function Main() {
             <img
               className={styles.fullWidth}
               src="/assets/imgs/parcel-header.jpg"
-              alt="the hymnal apps logo"
+              alt="the parcel apps logo"
             />
 
             <h3>parcel</h3>
-            <h4>this project is for vox medias home grown ad building platform, all the ads built for concert and all sites on chorus used this tool to build and serve up ads to millions of users.</h4>
+            <h4>this brief is for group nine media’s video intelligence system. parcel’s intended use is to highlight video trends and track user engagement metrics.</h4>
 
-            <p>in 2016 the revenue product team set out to evaluate our internal tools and found one of the main product offerings had grown stale as a product and user flows were being affected negatively by it. The tool, which runs all of vox media's premium ads across multiple networks, had not grown with new and bigger demands and needed some rethinking to get things done in a more efficient and easier way.</p>
-            <p>the hope was to make creating and building ads much easier along with reducing the user friction at certain pain points in the creation by rethinking and modernizing the tool.</p>
+            <p>in late 2017, as group nine media pivoted into producing more video content, they realized they needed a way to help track and find trends across their audience engagement. parcel initially started as a place to house all the videos produced by group nine, but eventually expanded to servicing metrics on a per-video basis.</p>
+
+            <p>when i joined the project, we noticed a few inconsistencies. we wanted to address them by building out a design system. our goal was then to extend them out to other tools in the organization.</p>
 
             <img
               src="/assets/imgs/parcel-before-after.jpg"
-              alt="the hymnal apps main screen"
+              alt="parcel before and after redesign"
             />
-            <cite>the main screen when looking at a hymnal made ad</cite>
+            <cite>parcel, before and after the redesign and refocus</cite>
 
             <h5>high level goals</h5>
 
             <p>
               <ul>
-                <li>reduce User Friction within the app</li>
-                <li>refresh User flow and rethink how new ads are built</li>
-                <li>reduce build times to decrease per ad cost</li>
+                <li>improve user flows and reduce friction</li>
+                <li>put together a design system to help modernize parcel</li>
+                <li>refine search and asset curation within the app</li>
               </ul>
             </p>
 
             <h5>jumping off point</h5>
 
-            <p>hymnal was brought into the world in 2014 and was a quick experiment by a few engineers as a proof of concept built using rails and bootstrap 2 without any design input (lolsob). Fast forward a few years and it was supporting nearly one hundred users and millions of dollars and grew to be one of vox media’s main lines of business. Due to user frustration hymnal was slated for a massive overhaul with a design lead rework.</p>
+            <p>initially, parcel was not meeting the needs of our users and needed a lot of care to move beyond its roots. shortly after joining the team, i quickly led a fundamental shift in thinking and approach for the project’s design aspect. in addition to putting together a design system, our main focus was on a visual design update, better information architecture and a more fleshed out user experience.</p>
 
             <img
               src="/assets/imgs/parcel-info-overlay.jpg"
-              alt="the hymnal apps asset field"
+              alt="the parcel apps info panel"
             />
-            <cite>this is hymnals asset population fields, users would add assets to build our ads from this view</cite>
+            <cite>the info panel for a selected video in parcel</cite>
 
             <img
               src="/assets/imgs/parcel-insights.jpg"
-              alt="the hymnal apps asset field"
+              alt="the pacel apps insight view"
             />
-            <cite>this is hymnals asset population fields, users would add assets to build our ads from this view</cite>
+            <cite>the insights view for a selected video in parcel</cite>
 
             <h5>initial findings and resolutions</h5>
 
-            <p>this project initially began as a simple refresh but once the team and I started talking to the users it soon came to light that the very nature of how we build ads was the biggest pain point — from uploading assets to managing them, it was all a mess. We started by asking a small sample of users to go through their workflow and noticed many of them weren’t aware of what they could edit within any given ad or how to manage assets — a design failure of the tool, as this information wasn’t being surfaced to them.</p>
+            <p>our initial findings were that users were frustrated while using the app (search was not returning expected results; assets were not loading quickly; moving between videos was cumbersome). there was a lot of uncertainty while navigating through the app, which led to confusion. all of this resulted in a breakdown of trust between our users and the team responsible for parcel.</p>
 
-            <p>this led us to a tricky solve to display what things could be added/manipulated within an ad but not clutter things as to make it distracting.</p>
+            <p>we conducted a series of user feedback sessions where we talk to users as a way of building trust with them. we found out what their overall objectives were while trying to establish better lines of communication.</p>
 
-            <p>we resolved this by reworking the tool to use a navigation system derived from a computer file system and popular code editors — this made it easy for users to see what options were available and leaned into things they were currently using along with letting us organize the information presented to users so they could easily and efficiently work through creating an ad on our platform.</p>
+            <p>after these sessions, we looked to address confusion within the app by focusing on cleaning up the interface. we also made touch points more clearly defined to help resolve frustration that some users found while navigating through the app. we also reworked how search was being approached and introduced a new way to search video parameters to help users get the results they originally expected. we also reworked our asset pipeline to bring in video thumbnails instead of loading the entire video.</p>
 
             <img
               src="/assets/imgs/parcel-search.jpg"
-              alt="the hymnal apps asset field"
+              alt="parcels reworked and expanded search"
             />
-            <cite>this is hymnals asset population fields, users would add assets to build our ads from this view</cite>
-
-            <h5>favorite change</h5>
-
-            <p>with the updated user flow and work process we were able to reduce the time it takes to create ads by about half; the most dramatic was an ad that had taken about 4 hours to make was cut down to about 1.5 hours.</p>
+            <cite>parcel with its revised search to help better surface results</cite>
 
             <img
               src="/assets/imgs/parcel-series-details.jpg"
-              alt="the hymnal apps main screen"
+              alt="parcels series details view"
             />
-            <cite>all of hymnals ads were responsive and we needed a way to test how they looked at various breakpoints</cite>
+            <cite>parcels series details page</cite>
 
             <h5>lessons learned</h5>
 
             <p>
               <ul>
-                <li>people have a hard time articulating issues with interfaces they’ve grown accustomed to using so proper context is needed to fish for what is bothering users.</li>
-                <li>be ready for ideas to fail, assumptions are only as good as their testing and while you have ideas you think will have legs, some user testing will tell you otherwise.</li>
-                <li>failure is a great tool in learning and is often how I came to some of my best ideas.</li>
+                <li>building trust and communication between users and teams is crucial when developing products.</li>
+                <li>good relationships with stakeholders allows them to be more compelled to speak freely on what isn’t meeting their needs.</li>
+                <li>never be afraid to take a beat and reevaluate the needs you are designing for, and if those needs are being met.</li>
+                <li>building consensus on how to solve a problem is the easiest way to advocate for change.</li>
               </ul>
             </p>
 
@@ -121,9 +119,8 @@ export default function Main() {
 
             <p>
               <ul>
-                <li>this redesign focused mostly on the creation and edit process and other parts of the app have not been addressed such as information organization, traversale within the system and other critical path issues within the experience.</li>
-                <li>looking into what this would be like on mobile — even as just a read only or cut down feature set since it doesn’t need parity with the desktop version.</li>
-                <li>further ui/user flow improvements to help speed things up further.</li>
+                <li>continue refining updates that were made to the app based on user feedback.</li>
+                <li>getting more people involved results in better feedback and growth within the product.</li>
               </ul>
             </p>
 
