@@ -46,10 +46,11 @@ export default function Main() {
             />
 
             <h3>resonance</h3>
-            <h4>this project is for vox medias home grown ad building platform, all the ads built for concert and all sites on chorus used this tool to build and serve up ads to millions of users.</h4>
+            <h4>this brief is for vox media’s tools design system. this is used across all of the company’s internal products as a way to help lower the barrier for engineers and designers to deliver on new ideas.</h4>
 
-            <p>in 2016 the revenue product team set out to evaluate our internal tools and found one of the main product offerings had grown stale as a product and user flows were being affected negatively by it. The tool, which runs all of vox media's premium ads across multiple networks, had not grown with new and bigger demands and needed some rethinking to get things done in a more efficient and easier way.</p>
-            <p>the hope was to make creating and building ads much easier along with reducing the user friction at certain pain points in the creation by rethinking and modernizing the tool.</p>
+            <p>as vox media was expanding, the amount of tools it was producing for internal use grew and we were finding that products were not matching up, thus creating differing experiences across tools. because of this, we focused on unifying what our tools looked like so that users’ expectations while moving from product to product was the same.</p>
+
+            <p>resonance was made in order to help us to solve this need for vox media and its brands.</p>
 
             <img
               src="/assets/imgs/resonance-buttons.jpg"
@@ -61,53 +62,47 @@ export default function Main() {
 
             <p>
               <ul>
-                <li>reduce User Friction within the app</li>
-                <li>refresh User flow and rethink how new ads are built</li>
-                <li>reduce build times to decrease per ad cost</li>
+                <li>reduce inconsistency across tools</li>
+                <li>make it easier to build and iterate on designs</li>
+                <li>allow us to better focus on problem solving</li>
               </ul>
             </p>
 
             <h5>jumping off point</h5>
 
-            <p>hymnal was brought into the world in 2014 and was a quick experiment by a few engineers as a proof of concept built using rails and bootstrap 2 without any design input (lolsob). Fast forward a few years and it was supporting nearly one hundred users and millions of dollars and grew to be one of vox media’s main lines of business. Due to user frustration hymnal was slated for a massive overhaul with a design lead rework.</p>
+            <p>when resonance first started, it was a collection of design elements, but there was no real system in place. we didn’t have defined rules for colors/type and how they relate to other elements. when i joined the project, we refocused on building it into a proper design system with those defined rules in place rather than a collection of components.</p>
 
             <h5>initial findings and resolutions</h5>
 
-            <p>this project initially began as a simple refresh but once the team and I started talking to the users it soon came to light that the very nature of how we build ads was the biggest pain point — from uploading assets to managing them, it was all a mess. We started by asking a small sample of users to go through their workflow and noticed many of them weren’t aware of what they could edit within any given ad or how to manage assets — a design failure of the tool, as this information wasn’t being surfaced to them.</p>
+            <p>we had a solid foundation, but there was no set structure in place. our files and components had room for improvement and organization. how we were initially organizing elements was not optimal for the team, and was leading to things feeling overwhelming when needing to use the system.</p>
 
-            <p>this led us to a tricky solve to display what things could be added/manipulated within an ad but not clutter things as to make it distracting.</p>
-
-            <p>we resolved this by reworking the tool to use a navigation system derived from a computer file system and popular code editors — this made it easy for users to see what options were available and leaned into things they were currently using along with letting us organize the information presented to users so they could easily and efficiently work through creating an ad on our platform.</p>
+            <p>after joining, we took the design artifacts in place, evaluated their needs and their relation to parts of the system. we then revised our components and designs into a more well thought out, organized structure along with the development of a quick-access design sheet intended to generate design ideas at a faster pace. one of our notable accomplishments with this project was taking a monolithic file and turning it into smaller, more manageable files to base our future designs from.</p>
 
             <img
               src="/assets/imgs/resonance-colors.jpg"
-              alt="a collection of the resonance colors"
+              alt="a collection of the resonances colors"
             />
-            <cite>a small sampling of buttons from resonance ui library</cite>
+            <cite>an overview of colors from the resonance library</cite>
 
             <img
               src="/assets/imgs/resonance-type-scale.jpg"
-              alt="a collection of the resonance colors"
+              alt="a collection of the resonances type scale"
             />
-            <cite>a small sampling of buttons from resonance ui library</cite>
+            <cite>an overview of the type scale from the resonance library</cite>
 
             <img
               src="/assets/imgs/resonance-sizing-scale.jpg"
-              alt="a collection of the resonance colors"
+              alt="the sizing scale for resonance"
             />
-            <cite>a small sampling of buttons from resonance ui library</cite>
-
-            <h5>favorite change</h5>
-
-            <p>with the updated user flow and work process we were able to reduce the time it takes to create ads by about half; the most dramatic was an ad that had taken about 4 hours to make was cut down to about 1.5 hours.</p>
+            <cite>the sizing scale used in resonance</cite>
 
             <h5>lessons learned</h5>
 
             <p>
               <ul>
-                <li>people have a hard time articulating issues with interfaces they’ve grown accustomed to using so proper context is needed to fish for what is bothering users.</li>
-                <li>be ready for ideas to fail, assumptions are only as good as their testing and while you have ideas you think will have legs, some user testing will tell you otherwise.</li>
-                <li>failure is a great tool in learning and is often how I came to some of my best ideas.</li>
+                <li>maintaining/managing things at scale is not easy.</li>
+                <li>making changes to an already existing system requires patience and understanding.</li>
+                <li>do more prep work prior to executing on ideas.</li>
               </ul>
             </p>
 
@@ -115,9 +110,7 @@ export default function Main() {
 
             <p>
               <ul>
-                <li>this redesign focused mostly on the creation and edit process and other parts of the app have not been addressed such as information organization, traversale within the system and other critical path issues within the experience.</li>
-                <li>looking into what this would be like on mobile — even as just a read only or cut down feature set since it doesn’t need parity with the desktop version.</li>
-                <li>further ui/user flow improvements to help speed things up further.</li>
+                <li>build out a source of truth for design and engineering to share.</li>
               </ul>
             </p>
 
