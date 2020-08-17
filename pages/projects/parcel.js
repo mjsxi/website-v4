@@ -52,13 +52,7 @@ export default function Main() {
             <p>the hope was to make creating and building ads much easier along with reducing the user friction at certain pain points in the creation by rethinking and modernizing the tool.</p>
 
             <img
-              src="/assets/imgs/parcel-grid-view.jpg"
-              alt="the hymnal apps main screen"
-            />
-            <cite>the main screen when looking at a hymnal made ad</cite>
-
-            <img
-              src="/assets/imgs/parcel-table-view.jpg"
+              src="/assets/imgs/parcel-before-after.jpg"
               alt="the hymnal apps main screen"
             />
             <cite>the main screen when looking at a hymnal made ad</cite>
