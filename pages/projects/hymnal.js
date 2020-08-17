@@ -62,9 +62,9 @@ export default function Main() {
 
             <p>
               <ul>
-                <li>reduce user friction within the app</li>
-                <li>refresh user flow and rethink how ads are built</li>
-                <li>reduce build times to decrease per ad cost</li>
+                <li>reduce user friction within the app.</li>
+                <li>refresh user flow and rethink how ads are built.</li>
+                <li>reduce build times to decrease per ad cost.</li>
               </ul>
             </p>
 

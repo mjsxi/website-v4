@@ -62,9 +62,9 @@ export default function Main() {
 
             <p>
               <ul>
-                <li>reduce inconsistency across tools</li>
-                <li>make it easier to build and iterate on designs</li>
-                <li>allow us to better focus on problem solving</li>
+                <li>reduce inconsistency across tools.</li>
+                <li>make it easier to build and iterate on designs.</li>
+                <li>allow us to better focus on problem solving.</li>
               </ul>
             </p>
 

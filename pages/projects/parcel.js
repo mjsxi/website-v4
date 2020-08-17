@@ -62,9 +62,9 @@ export default function Main() {
 
             <p>
               <ul>
-                <li>improve user flows and reduce friction</li>
-                <li>put together a design system to help modernize parcel</li>
-                <li>refine search and asset curation within the app</li>
+                <li>improve user flows and reduce friction.</li>
+                <li>put together a design system to help modernize parcel.</li>
+                <li>refine search and asset curation within the app.</li>
               </ul>
             </p>
 

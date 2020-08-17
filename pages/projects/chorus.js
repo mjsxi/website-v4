@@ -60,8 +60,8 @@ export default function Main() {
 
             <p>
               <ul>
-                <li>help rework flow of publishing stories to chorus</li>
-                <li>better maintain assets both within and out of the editor</li>
+                <li>help rework flow of publishing stories to chorus.</li>
+                <li>better maintain assets both within and out of the editor.</li>
               </ul>
             </p>
 
