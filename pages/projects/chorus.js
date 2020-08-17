@@ -10,6 +10,8 @@ export default function Main() {
   return (
     <div id='projects' className={styles.container}>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175645967-1"></script>
+        <script src="/ga.js"></script>
         <meta name="description" content="chorus project brief" />
         <meta name="keywords" content="designer, product design, design systems, matt sullivan, chorus" />
         <meta name="author" content="Matt Sullivan" />

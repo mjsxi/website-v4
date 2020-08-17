@@ -9,6 +9,8 @@ export default function Main() {
   return (
     <div className={styles.container}>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175645967-1"></script>
+        <script src="/ga.js"></script>
         <meta name="description" content="matt sullivan's personal projects site" />
         <meta name="keywords" content="designer, product design, design systems, matt sullivan" />
         <meta name="author" content="matt sullivan" />
