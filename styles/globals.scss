@@ -31,9 +31,17 @@ img {
 // extra things
 
 @font-face {
-  font-family: paralucent;
-  src: url('/assets/fonts/paralucent-bold.woff');
+  font-family: gt-flexa;
+  src: url('/assets/fonts/gt-flexa-standard-medium.woff');
   font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: gt-flexa;
+  src: url('/assets/fonts/gt-flexa-standard-medium-italic.woff');
+  font-weight: 700;
+  font-style: italic;
   font-display: swap;
 }
 
