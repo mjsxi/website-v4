@@ -10,16 +10,19 @@ const MainPage = () => (
         animate="visible"
         variants={{
           hidden: {
-            y: "200%"
+            y: "100%",
+            opacity: 0
           },
           visible: {
-            y: "0%"
+            y: "0%",
+            opacity: 1
           },
         }}
         transition={{
           default: {
             duration: .3,
-            delay: .4},
+            delay: .4
+          },
         }}
       >
         <span>hi im matt sullivan</span>, a product designer in nyc, my main focus is around empowering teams and building out design systems. I enjoy helping others, and designing products through listening and empathy.
@@ -32,16 +35,19 @@ const MainPage = () => (
         animate="visible"
         variants={{
           hidden: {
-            y: "200%"
+            y: "100%",
+            opacity: 0
           },
           visible: {
-            y: "0%"
+            y: "0%",
+            opacity: 1
           },
         }}
         transition={{
           default: {
             duration: .3,
-            delay: .5},
+            delay: .5
+          },
         }}
       >
         <h2>projects</h2>
@@ -69,16 +75,19 @@ const MainPage = () => (
         animate="visible"
         variants={{
           hidden: {
-            y: "200%"
+            y: "100%",
+            opacity: 0
           },
           visible: {
-            y: "0%"
+            y: "0%",
+            opacity: 1
           },
         }}
         transition={{
           default: {
             duration: .3,
-            delay: .6},
+            delay: .6
+          },
         }}
       >
         <h2>about</h2>
