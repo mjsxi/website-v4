@@ -23,12 +23,16 @@
 
 .container {
   max-height: 100vh;
-  max-width: 1010px;
+  max-width: 1050px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 600px) {
+    padding: 0 20px;
+  }
 
   @media (min-width: 601px) {
     position: absolute;
@@ -55,8 +59,8 @@
     margin-top: 0;
     margin-bottom: 0;
 
-    @media (max-width: 1010px) {
-      font-size: 4.65vw;
+    @media (max-width: 1050px) {
+      font-size: 4.55vw;
       line-height: 5.5vw;
     }
 
@@ -174,7 +178,13 @@
   justify-content: space-between;
   opacity: 1;
 
-  @media (max-width: 1010px) {
+  @media (max-width: 1050px) {
+    width: calc(100vw - 80px);
+    left: 40px;
+    right: 40px;
+  }
+
+  @media (max-width: 600px) {
     width: calc(100vw - 40px);
     left: 20px;
     right: 20px;
@@ -210,7 +220,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr) repeat(10, 97px) repeat(2, 1fr);
 
-    @media (max-width: 1010px) {
+    @media (max-width: 1050px) {
       grid-template-columns: repeat(2, 10px) repeat(10, 1fr) repeat(2, 10px);
     }
   }
