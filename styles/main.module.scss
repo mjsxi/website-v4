@@ -221,6 +221,10 @@
     grid-template-columns: repeat(2, 1fr) repeat(10, 97px) repeat(2, 1fr);
 
     @media (max-width: 1050px) {
+      grid-template-columns: repeat(2, 20px) repeat(10, 1fr) repeat(2, 20px);
+    }
+
+    @media (max-width: 1050px) {
       grid-template-columns: repeat(2, 10px) repeat(10, 1fr) repeat(2, 10px);
     }
   }
