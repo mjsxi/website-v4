@@ -41,25 +41,19 @@ export default function Main() {
         >
           <div className={styles.proCotents}>
 
-            <img
-              className={styles.fullWidth}
-              src="/assets/imgs/resonance-header.jpg"
-              alt="a collection of resonance components"
-            />
-
-            <h3>resonance</h3>
+            <h3>— resonance <span>(2018)</span></h3>
             <h4>this brief is for vox media’s tools design system. this is used across all of the company’s internal products as a way to help lower the barrier for engineers and designers to deliver on new ideas.</h4>
 
-            <h5>contributions</h5>
-
-            <p>
-              <ul>
-                <li>design systems development</li>
-                <li>component design</li>
-                <li>system organization and structure</li>
-                <li>system utilization and flow</li>
-              </ul>
-            </p>
+            <div className={styles.contributions}>
+              <p>
+                <ul>
+                  <li>design systems development</li>
+                  <li>component design</li>
+                  <li>system organization and structure</li>
+                  <li>system utilization and flow</li>
+                </ul>
+              </p>
+            </div>
 
             <h5>overview</h5>
 

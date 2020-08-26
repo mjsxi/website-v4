@@ -3,11 +3,14 @@ body {
   padding: 0;
   margin: 0;
 
-  font-family: gt-sectra;
-  font-size: 19px;
-  line-height: 30px;
+  font-family: signifier;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
 
-  color: #373333;
+  color: #363636;
+
+  font-smoothing: antialiased;
 }
 
 a {
@@ -30,6 +33,7 @@ img {
 
 // extra things
 
+// flexa
 @font-face {
   font-family: gt-flexa;
   src: url('/assets/fonts/gt-flexa-standard-medium.woff');
@@ -46,16 +50,47 @@ img {
 }
 
 @font-face {
-  font-family: gt-sectra;
-  src: url('/assets/fonts/gt-sectra-regular.woff');
+  font-family: gt-flexa;
+  src: url('/assets/fonts/gt-flexa-standard-regular.woff');
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: gt-sectra;
-  src: url('/assets/fonts/gt-sectra-regular-italic.woff');
+  font-family: gt-flexa;
+  src: url('/assets/fonts/gt-flexa-standard-regular-italic.woff');
   font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+// signifier
+@font-face {
+  font-family: signifier;
+  src: url('/assets/fonts/signifier-regular.woff');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: signifier;
+  src: url('/assets/fonts/signifier-regular-italic.woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: signifier;
+  src: url('/assets/fonts/signifier-light.woff');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: signifier;
+  src: url('/assets/fonts/signifier-light-italic.woff');
+  font-weight: 300;
   font-style: italic;
   font-display: swap;
 }

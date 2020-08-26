@@ -41,27 +41,21 @@ export default function Main() {
         >
           <div className={styles.proCotents}>
 
-            <img
-              className={styles.fullWidth}
-              src="/assets/imgs/parcel-header.jpg"
-              alt="the parcel apps logo"
-            />
-
-            <h3>parcel</h3>
+            <h3>— parcel <span>(2019)</span></h3>
             <h4>this brief is for group nine media’s video intelligence system. parcel’s intended use is to highlight video trends and track user engagement metrics.</h4>
 
-            <h5>contributions</h5>
-
-            <p>
-              <ul>
-                <li>design systems development</li>
-                <li>component design</li>
-                <li>user research</li>
-                <li>goal setting</li>
-                <li>product strategy</li>
-                <li>feature development</li>
-              </ul>
-            </p>
+            <div className={styles.contributions}>
+              <p>
+                <ul>
+                  <li>design systems development</li>
+                  <li>component design</li>
+                  <li>user research</li>
+                  <li>goal setting</li>
+                  <li>product strategy</li>
+                  <li>feature development</li>
+                </ul>
+              </p>
+            </div>
 
             <h5>overview</h5>
 

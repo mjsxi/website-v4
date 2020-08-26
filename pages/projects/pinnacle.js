@@ -41,26 +41,20 @@ export default function Main() {
         >
           <div className={styles.proCotents}>
 
-            <img
-              className={styles.fullWidth}
-              src="/assets/imgs/pinnacle-header.jpg"
-              alt="the pinnacle system logo"
-            />
-
-            <h3>pinnacle</h3>
+            <h3>— pinnacle <span>(2020)</span></h3>
             <h4>this brief is for pinnacle^3, from which the framework of all group nine media sites are built upon. this project is ongoing and we are currently in the process of updating and modernizing to our third version.</h4>
 
-            <h5>contributions</h5>
-
-            <p>
-              <ul>
-                <li>design systems development</li>
-                <li>component design and feedback</li>
-                <li>overseeing design contributions</li>
-                <li>user research</li>
-                <li>team goals and strategy</li>
-              </ul>
-            </p>
+            <div className={styles.contributions}>
+              <p>
+                <ul>
+                  <li>design systems development</li>
+                  <li>component design and feedback</li>
+                  <li>overseeing design contributions</li>
+                  <li>user research</li>
+                  <li>team goals and strategy</li>
+                </ul>
+              </p>
+            </div>
 
             <h5>overview</h5>
 

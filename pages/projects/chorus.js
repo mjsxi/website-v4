@@ -41,24 +41,18 @@ export default function Main() {
         >
           <div className={styles.proCotents}>
 
-            <img
-              className={styles.fullWidth}
-              src="/assets/imgs/chorus-header.jpg"
-              alt="the chorus apps logo"
-            />
-
-            <h3>chorus</h3>
+            <h3>— chorus <span>(2018)</span></h3>
             <h4>this brief is for chorus, vox media’s content management system (cms). chorus helps power content across vox’s eight brands and over 300 websites daily.</h4>
 
-            <h5>contributions</h5>
-
-            <p>
-              <ul>
-                <li>user research</li>
-                <li>ux/ui design</li>
-                <li>feature development</li>
-              </ul>
-            </p>
+            <div className={styles.contributions}>
+              <p>
+                <ul>
+                  <li>user research</li>
+                  <li>ux/ui design</li>
+                  <li>feature development</li>
+                </ul>
+              </p>
+            </div>
 
             <h5>overview</h5>
 
