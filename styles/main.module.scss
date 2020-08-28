@@ -22,38 +22,26 @@
 }
 
 .container {
-  max-height: 100vh;
-  max-width: 1050px;
-  margin: 0 auto;
-  padding: 0 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  @media (max-width: 600px) {
-    padding: 0 20px;
-  }
-
-  @media (min-width: 601px) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
+  display: grid;
+  grid-column-gap: 12px;
+  grid-row-gap: 32px;
+  grid-template-columns: repeat(2, 1fr) repeat(12, fit-content(80px)) repeat(2, 1fr);
 }
 
 .heading {
+  margin-top: 120px;
+
   overflow: hidden;
-  margin-top: 140px;
+  grid-column: 3 / span 12;
 
   @media (max-width: 728px) {
-    margin-top: 48px;
+    // margin-top: 48px;
   }
 
   h1 {
     font-family: gt-flexa;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 48px;
     line-height: 55px;
     margin-top: 0;
@@ -77,62 +65,17 @@
 
 .subhead {
   overflow: hidden;
-  margin-top: 60px;
-  margin-bottom: 120px;
+  grid-column: 3 / span 12;
 
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-column-gap: 12px;
+  grid-row-gap: 32px;
+  grid-template-columns: repeat(12, 1fr);
+}
 
-  @media (max-width: 728px) {
-    margin-top: 0px;
-    flex-direction: column;
-  }
-
-  .projects,
-  .thoughts,
-  .about {
-    width: 31.95%;
-
-    a {
-      color: #ffffff;
-    }
-
-    @media (max-width: 728px) {
-      margin-top: 40px;
-      width: 100%;
-    }
-  }
-
-  .projects,
-  .thoughts {
-    a {
-      display: block;
-    }
-  }
-
-  .about {
-    width: 66%;
-
-    @media (max-width: 728px) {
-      width: 100%;
-      margin-bottom: 80px;
-    }
-  }
-
-  .projects {
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    a {
-      font-family: gt-flexa;
-      font-weight: 600;
-      font-size: 44px;
-      line-height: 50px;
-      cursor: pointer;
-      display: inline-block;
-    }
-  }
+.projects,
+.thoughts,
+.about {
 
   h2 {
     font-family: gt-flexa;
@@ -154,6 +97,45 @@
       text-indent: 0px;
     }
   }
+
+  a {
+    color: #ffffff;
+  }
+
+  @media (max-width: 728px) {
+    margin-top: 40px;
+    width: 100%;
+  }
+}
+
+.projects,
+.thoughts {
+  a {
+    display: block;
+  }
+}
+
+.projects {
+  grid-column: 1 / span 4;
+
+  ul {
+    margin-top: 0px;
+    padding-left: 0px;
+
+    list-style: none;
+  }
+  a {
+    font-family: gt-flexa;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 50px;
+    cursor: pointer;
+    display: inline-block;
+  }
+}
+
+.about {
+  grid-column: 5 / span 8;
 }
 
 //#########################################

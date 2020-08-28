@@ -17,9 +17,8 @@ export default function Main() {
         <title>matt sullivan</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main className={styles.main}>
-        <MainPage />
-      </main>
+
+      <MainPage />
     </div>
   )
 }
