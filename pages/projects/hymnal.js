@@ -42,7 +42,7 @@ export default function Main() {
           <div className={styles.proCotents}>
 
             <h3>— hymnal <span>(2016)</span></h3>
-            <h4>this brief is for vox media’s home grown ad building platform. all the ads that were built for concert accross all of vox media and partners sites that ran on chorus used this tool to build and serve ads to millions of users.</h4>
+            <h4>this brief is for vox media’s home grown ad building platform. all the ads that were built for concert accross all of vox media and partners sites that ran on chorus used this tool to build and serve ads to millions of users. test</h4>
 
             <div className={styles.contributions}>
               <p>
