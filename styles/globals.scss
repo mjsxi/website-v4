@@ -13,14 +13,41 @@ body {
   font-smoothing: antialiased;
 }
 
+h1, h2, h3,
+h4, h5, h6,
+ul, p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: gt-flexa;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+p {
+  text-indent: 50px;
+
+  &:first-of-type {
+    text-indent: 0px;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: underline;
   opacity: 1;
-  transition: all .3s;
+  transition: all .25s;
   &:hover {
     opacity: 0.7;
   }
+}
+
+ul {
+  list-style: none;
 }
 
 img {
