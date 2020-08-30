@@ -40,68 +40,46 @@ export default function Main() {
       >
         <div className={styles.proCotents}>
 
-          <h3>— pinnacle <span>(2020)</span></h3>
-          <p className={styles.intro}>this brief is for pinnacle^3, from which the framework of all group nine media sites are built upon. this project is ongoing and we are currently in the process of updating and modernizing to our third version.</p>
+          <h3>— pinnacle design system<span>(2020)</span></h3>
+          <p className={styles.intro}>for the last year, I’ve been working on a project at group nine called pinnacle^3, this is one of the most ambitious initiatives group nine has ever undertaken for its home grown sites. this project touches everything from the back-end data structures to front-end implementation and design.</p>
 
           <div className={styles.contributions}>
             <p>
               <ul>
-                <li>design systems development</li>
-                <li>component design and feedback</li>
-                <li>overseeing design contributions</li>
-                <li>user research</li>
-                <li>team goals and strategy</li>
+                <li><strong>role:</strong> design system lead</li>
+                <li><strong>timeline:</strong> 12+ months</li>
+                <li><strong>goal(s):</strong> componentize designs for easy replication across brands, bring the best parts of our existing sites forward and with modernized tastes, improve load times, improve ability to spin up new group nine brands.</li>
               </ul>
             </p>
           </div>
 
-          <h5>overview</h5>
+          <h5>intro</h5>
 
-          <p>in the summer of 2019, group nine embarked on updating its owned and operated sites to bring it up to date with modern web standards. due to reworking the core of our sites, we wanted to reevaluate how we were approaching design at scale. with pinnacle^2, each brand was isolated and was unable to share components with the other brands.</p>
+          <p>pinnacle at its core is the goal to get every group nine site onto one shared platform, this is built upon a single scalable codebase that has a shared design system across every brand expression. this required a massive rework of our old platform pinnacle^2 and included a complete refactoring of both engineering tools and how we as designers approach problems. this project has been in progress over the last year and has touch multiple brands and is continually being iterated and improved upon as expectations grow.</p>
 
-          <p>with the next version of pinnacle, it was imperative that all components designed for one brand could easily be transferred to another brand. this reduces the level of effort required for long-term maintainability and new feature additions. currently, we are in the process of building up pinnacle^3 to address these issues.</p>
+          <p>you can see examples of this in action by visiting: <a target="_blank" href="//www.thrillist.com">thrillist</a>, <a target="_blank" href="//www.thedodo.com">the dodo</a>, <a target="_blank" href="//nowthisnews.com">now this</a>, and <a target="_blank" href="//www.seeker.com">seeker</a>. we are currently in the process of moving over another of our brands to this system and it will be added upon its launch.</p>
 
           <img
-            src="/assets/imgs/pinnacle-elements.jpg"
-            alt="an example of smaller elements in pinnacle"
+            src="/assets/imgs/pinnacle-articles-desktop.jpg"
+            alt="pinnacles articles themed per brand"
           />
-          <cite>a small collection of elements themed to be used on group nines brands</cite>
+          <cite>example of article components on large screens, themed for some of group nines brands</cite>
+
+          <img
+            src="/assets/imgs/pinnacle-articles-mobile.jpg"
+            alt="pinnacles articles themed per brand"
+          />
+          <cite>example of article components on small screens, themed for some of group nines brands</cite>
 
           <h5>high level goals</h5>
 
           <p>
             <ul>
-              <li>improve ability to share designs/features across all brands.</li>
-              <li>optimize pages to better utilize pinnacle^2’s more successful elements.</li>
-              <li>better unity between design and engineering’s needs for a more seamless handoff.</li>
+              <li>understanding the needs of our brands and what their baseline is and how this fits into pinnacle.</li>
+              <li>create a single set of themeable tools to help improve our ability to share designs/features across all brands, at scale.</li>
+              <li>improve workflows, and better unify the design, engineering, and pm handoff for new features and iterations.</li>
             </ul>
           </p>
-
-          <h5>jumping off point</h5>
-
-          <p>over the past few years, group nine has been using a system called pinnacle^2 to manage our site’s front end. as time has progressed, we were finding that its ability to match our needs was not being met. because of this, we decided to rework our platform with an updated version built to be more modular along with addressing load times to better meet our audience where they are.</p>
-
-          <img
-            src="/assets/imgs/pinnacle-cards.jpg"
-            alt="pinnacles content cards themed for each brand"
-          />
-          <cite>one of pinnacles components themed to demonstrate its flexibilty across brands</cite>
-
-          <h5>initial findings and resolutions</h5>
-
-          <p>we were finding our page loads were inhibiting our audience’s interactions with the content we were producing. as we were looking for solutions, engineers were flagging concerns that our tech stack was becoming hard to work with due to all of the legacy elements restricting our options.</p>
-
-          <p>due to poor page loading speeds and our engineers having to hack together solutions due to an outdated code base, we decided to rework of our front-end system from the ground up.</p>
-
-          <p>we have taken many steps to fix our initial findings and have resolved a majority of the issues found. however, we have not resolved everything; but as we keep making optimizations and updates within pinnacle^3 we will continue to build upon it to meet our needs.</p>
-
-          <p>as of today we have moved most of our sites to the new framework and are looking forward to moving the rest.</p>
-
-          <img
-            src="/assets/imgs/pinnacle-articles.jpg"
-            alt="pinnacles articles themed per brand"
-          />
-          <cite>example of article components themed for some of group nines brands</cite>
 
           <img
             src="/assets/imgs/pinnacle-video.jpg"
@@ -109,11 +87,69 @@ export default function Main() {
           />
           <cite>example of video node components themed for some of group nines brands</cite>
 
+          <h5>jumping off point</h5>
+
+          <p>pinnacle^3, is the in-house home grown solution to managing how sites express themselves across the brands owned and operated by group nine. originally, each brand had its own purpose built solution to managing the look and feel but shared nothing and had no interoperability across codebases.</p>
+
+          <p>as group nine has grown, introducing and acquiring more brands, a new instance of pinnacle was spun up to serve the needs of each new site. they shared the same underlying publishing platform but as sites began to diverge and grow we quickly found ourselves managing and executing repetitive tasks across multiple designs and codebases, and anytime we wanted to introduce a new feature it needed to be designed, built and tested multiple times. this was highly unsustainable.</p>
+
+          <p>e.g. features and stories across the brands shared a similar core but had diverged in their components and interactions, type system, ui elements such as inputs and fields and how the brand was being expressed.</p>
+
+          <img
+            src="/assets/imgs/pinnacle-cards.jpg"
+            alt="pinnacles content cards themed for each brand"
+          />
+          <cite>one of pinnacles most used components themed to demonstrate its flexibilty across brands</cite>
+
+          <h5>challenges</h5>
+
+          <p>with multiple sites and sub-brands to consider, we've faced some sticky points throughout this overhaul, some of which include:</p>
+
+          <p><strong>designing within a system and at scale.</strong> all our designs needed to have enough flexibility to work for all of our brands, yet still find room to have individual brand moments shine through to suit any of the editorial needs our stakeholders had. we essentially needed to create templates that we could easily maintain and scale that didn’t act like traditional templates. in order to meet these goals we did an audit of all existing components and cut any unnecessary pieces to help us better focus on delivering a rock solid core to scale up from, this meant sunsetting over 100 rarely used features, layouts, and components.</p>
+
+          <p><strong>finding a balance between editorial needs and audience expectations.</strong> pinnacle is unique to most projects as it has two very different sets of users, editorial users who produce content and have expectations on how that content is expressed and users who come to our sites to experience that content. both sets of users are usually in sync with one another, but while editors love impactful pages with lots of effects to show their work our readers often want quick page loads and minimal page movement. as a team of designers, we need to consider what is the best path to ensure that our products work for all involved.</p>
+
+          <p><strong>moving sites to a new platform while rebranding them.</strong> while designing and finding harmony between users we also needed to account for the brands getting refreshed as pinnacle^3 was in development. thrillist, the dodo, and seeker all received brand overhauls while we were in progress of migrating these brands to our new platform. this brought with it a few challenges i'd like to highlight — we were actively developing new features and components and needed to figure out how to work within a space where not all the brand elements were clearly defined. we often found ourselves needing to meet things that were out of our control such as launch windows, and expectations from other partners (such as sales and revenue). this often led us to needing to be thoughtful and hyper clear on feedback, timelines, success v failure, and a litany of smaller pieces that all go into a success product launch.</p>
+
+          <p>communication was one of the major keys to this being successful.</p>
+
+          <img
+            src="/assets/imgs/pinnacle-landing.jpg"
+            alt="an example of smaller elements in pinnacle"
+          />
+          <cite>the brands homepages, due to time saved by moving to a scalable system we were able to give each brand its own unique homepage more aligned with its brand expression.</cite>
+
+          <h5>what does success look like</h5>
+
+          <p>we’ve had many wins by moving to pinnacle, so lets look back at our high level goals and see how we did:</p>
+
+          <p>
+            <ul>
+              <li><strong>understanding the needs of our brands and what their baseline is and how this fits into pinnacle.</strong>
+                <ul>
+                  <li>after a little over a year, we’ve migrated our main brands to the pinnacle mainline and over that time we have developed a deep understanding of the building blocks that make up our sites. Some of these include articles, features, video nodes, and “the homepages” (one of the more crucial parts noted by our stakeholders, each brand received a distinct homepage experience to better help with their brand expression (see above)) and all the smaller things that make up a pinnacle site. along with this we’ve come to understand the best way to express our brands and their unique identifiers.</li>
+                </ul>
+              </li>
+              <li><strong>create a single set of themeable tools to help improve our ability to share designs/features across all brands, at scale.</strong>
+                <ul>
+                  <li>this is pretty easy as we either succeeded or we didn’t. We successfully moved all of our brands onto this new unified design system and codebase, so a success. we are still growing this system but as it stands today we’ve fully delivered on our goal to unify these brands to make scaling up a breeze.</li>
+                </ul>
+              </li>
+              <li><strong>improve workflows, and better unify the design, engineering, and pm handoff for new features and iterations.</strong>
+                <ul>
+                  <li>this was a big goal of ours in this move and i think it’s another success story. while moving our codebase we also changed design tools to use figma and its amazing collaboration and component capabilities. due to this move and the power of components, design was able to build out a comprehensive design system with theming and a good bit of flexibility to meet our needs while engineering made a code component library that hooks into figma to pull all needed values. this has severely reduced turn around times, eased handoff and helped with small visual qa mishaps. now that handoff and qa can look to a single source of truth for design there is less errors and overall better communication between different teams within product.</li>
+                </ul>
+              </li>
+            </ul>
+          </p>
+
           <h5>lessons learned</h5>
 
           <p>
             <ul>
-              <li>good work and a good foundation takes time.</li>
+              <li>good work and a good foundation takes time to develop.</li>
+              <li>communication is one of the most important tools we as designers have to help build consensus and build trust between our teammates and our users.</li>
+              <li>knowing when to advocate for evolution of something vs changing something that already works.</li>
             </ul>
           </p>
 
@@ -121,7 +157,7 @@ export default function Main() {
 
           <p>
             <ul>
-              <li>not very applicable as this project is still ongoing.</li>
+              <li>this project is still ongoing.</li>
             </ul>
           </p>
 
