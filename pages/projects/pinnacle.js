@@ -49,6 +49,7 @@ export default function Main() {
                 <li><strong>role:</strong> design system lead</li>
                 <li><strong>timeline:</strong> 12+ months</li>
                 <li><strong>goal(s):</strong> componentize designs for easy replication across brands, bring the best parts of our existing sites forward and with modernized tastes, improve load times, improve ability to spin up new group nine brands.</li>
+                <li><strong>skill(s):</strong> user research, design systems development, feature development, product strategy and goal setting.</li>
               </ul>
             </p>
           </div>
@@ -63,13 +64,13 @@ export default function Main() {
             src="/assets/imgs/pinnacle-articles-desktop.jpg"
             alt="pinnacles articles themed per brand"
           />
-          <cite>example of article components on large screens, themed for some of group nines brands</cite>
+          <cite>example of our article components across multiple large screens, each themed for a specific brand under the group nine umbrella</cite>
 
           <img
             src="/assets/imgs/pinnacle-articles-mobile.jpg"
             alt="pinnacles articles themed per brand"
           />
-          <cite>example of article components on small screens, themed for some of group nines brands</cite>
+          <cite>example of our article components across multiple small screens, each themed for a specific brand under the group nine umbrella</cite>
 
           <h5>high level goals</h5>
 
@@ -85,7 +86,7 @@ export default function Main() {
             src="/assets/imgs/pinnacle-video.jpg"
             alt="pinnacles video nodes themed per brand"
           />
-          <cite>example of video node components themed for some of group nines brands</cite>
+          <cite>an example of a video node component that has been themed for some of group nines brands</cite>
 
           <h5>jumping off point</h5>
 
