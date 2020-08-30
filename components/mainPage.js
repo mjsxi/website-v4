@@ -52,14 +52,14 @@ const MainPage = () => (
       >
         <h2>— projects</h2>
         <ul>
+          <Link href="/projects/design-process-and-leadership">
+            <li><a>Process & Leadership</a></li>
+          </Link>
           <Link href="/projects/pinnacle">
             <li><a>Pinnacle</a></li>
           </Link>
           <Link href="/projects/parcel">
             <li><a>Parcel</a></li>
-          </Link>
-          <Link href="/projects/chorus">
-            <li><a>Chorus</a></li>
           </Link>
           <Link href="/projects/resonance">
             <li><a>Resonance</a></li>

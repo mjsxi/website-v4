@@ -46,7 +46,7 @@ export default function Main() {
           <div className={styles.contributions}>
             <p>
               <ul>
-                <li><strong>role:</strong> design system lead</li>
+                <li><strong>role:</strong> product and design system lead</li>
                 <li><strong>timeline:</strong> 12+ months</li>
                 <li><strong>goal(s):</strong> componentize designs for easy replication across brands, bring the best parts of our existing sites forward and with modernized tastes, improve load times, improve ability to spin up new group nine brands.</li>
                 <li><strong>skill(s):</strong> user research, design systems development, feature development, product strategy and goal setting.</li>

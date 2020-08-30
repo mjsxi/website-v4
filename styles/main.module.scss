@@ -260,6 +260,18 @@
     }
   }
 
+  .notice {
+
+    background: #eaeaaa;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    grid-column: 8 / span 5;
+
+    @media (max-width: 728px) {
+      grid-column: 3 / span 12;
+    }
+  }
+
   h5 {
     font-family: gt-flexa;
     text-transform: uppercase;

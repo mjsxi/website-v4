@@ -40,18 +40,22 @@ export default function Main() {
       >
         <div className={styles.proCotents}>
 
-          <h3>— resonance <span>(2018)</span></h3>
+          <h3>— resonance design system & chorus<span>(2017)</span></h3>
           <p className={styles.intro}>this brief is for vox media’s tools design system. this is used across all of the company’s internal products as a way to help lower the barrier for engineers and designers to deliver on new ideas.</p>
 
           <div className={styles.contributions}>
             <p>
               <ul>
-                <li>design systems development</li>
-                <li>component design</li>
-                <li>system organization and structure</li>
-                <li>system utilization and flow</li>
+                <li><strong>role:</strong> senior product designer</li>
+                <li><strong>timeline:</strong> 10 months</li>
+                <li><strong>goal(s):</strong> componentize designs for easy replication across brands, bring the best parts of our existing sites forward and with modernized tastes, improve load times, improve ability to spin up new group nine brands.</li>
+                <li><strong>skill(s):</strong> user research, design systems development, feature development, product strategy and goal setting.</li>
               </ul>
             </p>
+          </div>
+
+          <div className={styles.notice}>
+            <p><strong>notice:</strong> this project hasn't been updated since 2018 and might not fully cover all the contributions and breadth of work completed.</p>
           </div>
 
           <h5>overview</h5>
@@ -79,6 +83,12 @@ export default function Main() {
           <h5>jumping off point</h5>
 
           <p>when resonance first started, it was a collection of design elements, but there was no real system in place. we didn’t have defined rules for colors/type and how they relate to other elements. when i joined the project, we refocused on building it into a proper design system with those defined rules in place rather than a collection of components.</p>
+
+          <img
+            src="/assets/imgs/chorus-editor.jpg"
+            alt="the chorus editor"
+          />
+          <cite>the peak at the chorus editor, one of the main expressions of the resonance design system</cite>
 
           <h5>initial findings and resolutions</h5>
 
