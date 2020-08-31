@@ -57,7 +57,7 @@ export default function Main() {
           </div>
 
           <div className={styles.notice}>
-            <p><strong>notice:</strong> this project hasn't been updated since 2018 and might not fully cover all the contributions and breadth of work completed.</p>
+            <p><strong>notice:</strong> this project hasn't been updated since 2017 and might not fully cover all the contributions and breadth of work completed.</p>
           </div>
 
           <h5>overview</h5>
