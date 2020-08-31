@@ -48,8 +48,8 @@ export default function Main() {
               <ul>
                 <li><strong>role:</strong> senior product designer</li>
                 <li><strong>timeline:</strong> 10 months</li>
-                <li><strong>goal(s):</strong> componentize designs for easy replication across brands, bring the best parts of our existing sites forward and with modernized tastes, improve load times, improve ability to spin up new group nine brands.</li>
-                <li><strong>skill(s):</strong> user research, design systems development, feature development, product strategy and goal setting.</li>
+                <li><strong>goal(s):</strong> help improve the design system, work to better chorus the main publishing tool for vox media.</li>
+                <li><strong>skill(s):</strong> design systems development, feature development.</li>
               </ul>
             </p>
           </div>

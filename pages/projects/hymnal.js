@@ -48,8 +48,8 @@ export default function Main() {
               <ul>
                 <li><strong>role:</strong> product designer</li>
                 <li><strong>timeline:</strong> 18 months</li>
-                <li><strong>goal(s):</strong> componentize designs for easy replication across brands, bring the best parts of our existing sites forward and with modernized tastes, improve load times, improve ability to spin up new group nine brands.</li>
-                <li><strong>skill(s):</strong> user research, design systems development, feature development, product strategy and goal setting.</li>
+                <li><strong>goal(s):</strong> help improve ability to build ads for concert, improve revenue tooling for none engineers.</li>
+                <li><strong>skill(s):</strong> user research, ux/ui design, feature development, product strategy.</li>
               </ul>
             </p>
           </div>
