@@ -40,6 +40,8 @@ export default function Main() {
       >
         <div className={styles.proCotents}>
 
+          <div className={styles.spacer}>If you found this while inspecting the page and can see this good on ya! I couldn't get css grid to do exactly what I wanted so I hacked in this spacer to get the grid to play nice!</div>
+
           <h3>— chorus <span>(2018)</span></h3>
           <p className={styles.intro}>this brief is for chorus, vox media’s content management system (cms). chorus helps power content across vox’s eight brands and over 300 websites daily.</p>
 

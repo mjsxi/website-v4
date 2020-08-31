@@ -201,6 +201,12 @@
     }
   }
 
+  .spacer {
+    grid-column: 3 / span 12;
+    height: 4px;
+    visibility: hidden;
+  }
+
   h3 {
     text-transform: uppercase;
     font-size: 36px;

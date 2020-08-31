@@ -40,6 +40,8 @@ export default function Main() {
       >
         <div className={styles.proCotents}>
 
+          <div className={styles.spacer}>If you found this while inspecting the page and can see this good on ya! I couldn't get css grid to do exactly what I wanted so I hacked in this spacer to get the grid to play nice!</div>
+
           <h3>— parcel <span>(2019)</span></h3>
           <p className={styles.intro}>when i joined group nine in late 2018 this was the project i was hired to oversee. this ambitious project was done in the span of about 11 months and covered a redesign, a change in strategy, user experience rethinking along with a reworking of the information architecture and a need for higher content density on any given page.</p>
 

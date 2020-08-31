@@ -40,6 +40,8 @@ export default function Main() {
       >
         <div className={styles.proCotents}>
 
+          <div className={styles.spacer}>If you found this while inspecting the page and can see this good on ya! I couldn't get css grid to do exactly what I wanted so I hacked in this spacer to get the grid to play nice!</div>
+
           <h3>— resonance design system & chorus<span>(2017)</span></h3>
           <p className={styles.intro}>this brief is for vox media’s tools design system. this is used across all of the company’s internal products as a way to help lower the barrier for engineers and designers to deliver on new ideas.</p>
 
