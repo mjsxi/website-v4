@@ -43,7 +43,7 @@ export default function Main() {
           <div className={styles.spacer}>If you found this while inspecting the page and can see this good on ya! I couldn't get css grid to do exactly what I wanted so I hacked in this spacer to get the grid to play nice!</div>
 
           <h3>— pinnacle design system<span>(2020)</span></h3>
-          <p className={styles.intro}>for the last year, I’ve been working on a project at group nine called pinnacle^3, this is one of the most ambitious initiatives group nine has ever undertaken for its home grown sites. this project touches everything from the back-end data structures to front-end implementation and design.</p>
+          <p className={styles.intro}>for the last year, I’ve been working on a project at group nine called pinnacle&sup3;, this is one of the most ambitious initiatives group nine has ever undertaken for its home grown sites. this project touches everything from the back-end data structures to front-end implementation and design.</p>
 
           <div className={styles.contributions}>
             <p>
@@ -58,7 +58,7 @@ export default function Main() {
 
           <h5>intro</h5>
 
-          <p>pinnacle at its core is the goal to get every group nine site onto one shared platform, this is built upon a single scalable codebase that has a shared design system across every brand expression. this required a massive rework of our old platform pinnacle^2 and included a complete refactoring of both engineering tools and how we as designers approach problems. this project has been in progress over the last year and has touch multiple brands and is continually being iterated and improved upon as expectations grow.</p>
+          <p>pinnacle at its core is the goal to get every group nine site onto one shared platform, this is built upon a single scalable codebase that has a shared design system across every brand expression. this required a massive rework of our old platform pinnacle&sup2; and included a complete refactoring of both engineering tools and how we as designers approach problems. this project has been in progress over the last year and has touch multiple brands and is continually being iterated and improved upon as expectations grow.</p>
 
           <p>you can see examples of this in action by visiting: <a target="_blank" href="//www.thrillist.com">thrillist</a>, <a target="_blank" href="//www.thedodo.com">the dodo</a>, <a target="_blank" href="//nowthisnews.com">now this</a>, and <a target="_blank" href="//www.seeker.com">seeker</a>. we are currently in the process of moving over another of our brands to this system and it will be added upon its launch.</p>
 
@@ -92,7 +92,7 @@ export default function Main() {
 
           <h5>jumping off point</h5>
 
-          <p>pinnacle^3, is the in-house home grown solution to managing how sites express themselves across the brands owned and operated by group nine. originally, each brand had its own purpose built solution to managing the look and feel but shared nothing and had no interoperability across codebases.</p>
+          <p>pinnacle&sup3;, is the in-house home grown solution to managing how sites express themselves across the brands owned and operated by group nine. originally, each brand had its own purpose built solution to managing the look and feel but shared nothing and had no interoperability across codebases.</p>
 
           <p>as group nine has grown, introducing and acquiring more brands, a new instance of pinnacle was spun up to serve the needs of each new site. they shared the same underlying publishing platform but as sites began to diverge and grow we quickly found ourselves managing and executing repetitive tasks across multiple designs and codebases, and anytime we wanted to introduce a new feature it needed to be designed, built and tested multiple times. this was highly unsustainable.</p>
 
@@ -112,7 +112,7 @@ export default function Main() {
 
           <p><strong>finding a balance between editorial needs and audience expectations.</strong> pinnacle is unique to most projects as it has two very different sets of users, editorial users who produce content and have expectations on how that content is expressed and users who come to our sites to experience that content. both sets of users are usually in sync with one another, but while editors love impactful pages with lots of effects to show their work our readers often want quick page loads and minimal page movement. as a team of designers, we need to consider what is the best path to ensure that our products work for all involved.</p>
 
-          <p><strong>moving sites to a new platform while rebranding them.</strong> while designing and finding harmony between users we also needed to account for the brands getting refreshed as pinnacle^3 was in development. thrillist, the dodo, and seeker all received brand overhauls while we were in progress of migrating these brands to our new platform. this brought with it a few challenges i'd like to highlight — we were actively developing new features and components and needed to figure out how to work within a space where not all the brand elements were clearly defined. we often found ourselves needing to meet things that were out of our control such as launch windows, and expectations from other partners (such as sales and revenue). this often led us to needing to be thoughtful and hyper clear on feedback, timelines, success v failure, and a litany of smaller pieces that all go into a success product launch.</p>
+          <p><strong>moving sites to a new platform while rebranding them.</strong> while designing and finding harmony between users we also needed to account for the brands getting refreshed as pinnacle&sup3; was in development. thrillist, the dodo, and seeker all received brand overhauls while we were in progress of migrating these brands to our new platform. this brought with it a few challenges i'd like to highlight — we were actively developing new features and components and needed to figure out how to work within a space where not all the brand elements were clearly defined. we often found ourselves needing to meet things that were out of our control such as launch windows, and expectations from other partners (such as sales and revenue). this often led us to needing to be thoughtful and hyper clear on feedback, timelines, success v failure, and a litany of smaller pieces that all go into a success product launch.</p>
 
           <p>communication was one of the major keys to this being successful.</p>
 
