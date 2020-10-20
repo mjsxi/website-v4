@@ -69,8 +69,14 @@ export default function Main() {
           <cite>example of our article components across multiple large screens, each themed for a specific brand under the group nine umbrella</cite>
 
           <img
+            src="/assets/imgs/pinnacle-articles-mobile_mocks.jpg"
+            alt="pinnacles mobile article wireframes"
+          />
+          <cite>early wireframes of mobile article explorations</cite>
+
+          <img
             src="/assets/imgs/pinnacle-articles-mobile.jpg"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles mobile articles themed per brand"
           />
           <cite>example of our article components across multiple small screens, each themed for a specific brand under the group nine umbrella</cite>
 
@@ -83,6 +89,12 @@ export default function Main() {
               <li>improve workflows, and better unify the design, engineering, and pm handoff for new features and iterations.</li>
             </ul>
           </p>
+
+          <img
+            src="/assets/imgs/pinnacle-video_mocks.jpg"
+            alt="pinnacles video nodes mocks"
+          />
+          <cite>early wireframes of video nodes explorations</cite>
 
           <img
             src="/assets/imgs/pinnacle-video.jpg"
@@ -120,7 +132,7 @@ export default function Main() {
             src="/assets/imgs/pinnacle-landing.jpg"
             alt="an example of smaller elements in pinnacle"
           />
-          <cite>the brands homepages, due to time saved by moving to a scalable system we were able to give each brand its own unique homepage more aligned with its brand expression.</cite>
+          <cite>the brands reusing the same component in different contexts, due to time saved by moving to a scalable system we were able to give each brand its own unique "news paper" component that more aligned with their editorial goals.</cite>
 
           <h5>what does success look like</h5>
 
