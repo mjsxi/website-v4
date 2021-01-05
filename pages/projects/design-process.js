@@ -42,8 +42,8 @@ export default function Main() {
 
           <div className={styles.spacer}>If you found this while inspecting the page and can see this good on ya! I couldn't get css grid to do exactly what I wanted so I hacked in this spacer to get the grid to play nice!</div>
 
-          <h3>— design process and leadership <span>(∞)</span></h3>
-          <p className={styles.intro}>here is a collection of thoughts around how i approach design and the processes around it, along with some thoughts around the ways that i like to use my skills with people to contribute more broadly to a design team in a leadership capacity. i've put this above all my projects in hopes you will read this before diving into my work.</p>
+          <h3>— design process<span>(∞)</span></h3>
+          <p className={styles.intro}>here is a collection of thoughts around how i approach design and the processes around it, along with some thoughts around the ways that i like to use my skills with people to contribute broadly to a design team and our partners. i've put this above all my projects in hopes you will read this before diving into my work.</p>
 
           <h5>thougths on design</h5>
 

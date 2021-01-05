@@ -52,8 +52,8 @@ const MainPage = () => (
       >
         <h2>projects</h2>
         <ul>
-          <Link href="/projects/design-process-and-leadership">
-            <li><a>Process & Leadership</a></li>
+          <Link href="/projects/design-process">
+            <li><a>Process</a></li>
           </Link>
           <Link href="/projects/pinnacle">
             <li><a>Pinnacle</a></li>
