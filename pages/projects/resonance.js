@@ -62,7 +62,8 @@ export default function Main() {
 
           <p>resonance was made in order to help us to solve this need for vox media, and for all of its other internal tools. chief among these was chorus, vox media content management system (cms), which was used as the testing bed for all the designed components found in our design system library.</p>
 
-          <img
+          <img 
+						loading="lazy"
             src="/assets/imgs/resonance-buttons.jpg"
             alt="a collection of the resonance buttons"
           />
@@ -86,7 +87,8 @@ export default function Main() {
 
           <p>after joining, we took the design artifacts in place, evaluated their needs and their relation to parts of the system. we then revised our components and designs into a more well thought out, organized structure along with the development of a quick-access design sheet intended to generate design ideas at a faster pace. one of our notable accomplishments with this project was taking a monolithic file and turning it into smaller, more manageable files to base our future designs from.</p>
 
-          <img
+          <img 
+						loading="lazy"
             src="/assets/imgs/chorus-editor.jpg"
             alt="the chorus editor"
           />
@@ -100,19 +102,22 @@ export default function Main() {
 
           <p><strong>designing in service of a predefined to a tool.</strong> since resonance was being made to support the chorus editor, most of the design and thoughts on where to evolve the system revolved around the way it would impact our main tool. that means we had many meetings with the team designing and maintaining chorus and its users to make sure all the new pieces we were adding kept things within expectations and accessible to all users.</p>
 
-          <img
+          <img 
+						loading="lazy"
             src="/assets/imgs/resonance-colors.jpg"
             alt="a collection of the resonances colors"
           />
           <cite>an overview of colors from the resonance library</cite>
 
-          <img
+          <img 
+						loading="lazy"
             src="/assets/imgs/resonance-type-scale.jpg"
             alt="a collection of the resonances type scale"
           />
           <cite>an overview of the type scale from the resonance library</cite>
 
-          <img
+          <img 
+						loading="lazy"
             src="/assets/imgs/resonance-sizing-scale.jpg"
             alt="the sizing scale for resonance"
           />

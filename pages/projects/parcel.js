@@ -62,7 +62,8 @@ export default function Main() {
 
           <p>when joining the project, we started by defining what was successful about the already existing version of parcel along with conducting user interview sessions to help us define what our 3/6/12 month goals were to evolve parcel to better meet our users where they are.</p>
 
-          <img
+          <img 
+						loading="lazy"
             src="/assets/imgs/parcel-before-after.jpg"
             alt="parcel before and after redesign"
           />
@@ -86,13 +87,15 @@ export default function Main() {
 
           <p>e.g. users didn't want to be taken out of the experience when viewing a video asset,  the way the previous team had solved this was with a full screen overlay. while taking what users asked for and delivering it, this ended up being tedious to move between assets even though it wasn't taking users out of the page it often ended up with users only going to parcel when they had direct links.</p>
 
-          <img
+          <img 
+						loading="lazy"
             src="/assets/imgs/parcel-info-overlay.jpg"
             alt="the parcel apps info panel"
           />
           <cite>the info panel for a selected video in parcel</cite>
 
-          <img
+          <img 
+						loading="lazy"
             src="/assets/imgs/parcel-insights.jpg"
             alt="the pacel apps insight view"
           />
@@ -108,7 +111,8 @@ export default function Main() {
 
           <p><strong>building a nice baseline for future internal tools.</strong> upon joining group nine, one of their stated goals was to lean more into components and repeatable design patterns, this was in hopes of freeing up resources to better focus on the needs of our users. this was a bit of a precursor to the <Link href="/projects/pinnacle">pinnacle project</Link>. one of the biggest challenges was making an agnostic and flexible system that could span this video aggregator, our in-house content management system, and a few other interal tools that are used by group nine.</p>
 
-          <img
+          <img 
+						loading="lazy"
             src="/assets/imgs/parcel-series-details.jpg"
             alt="parcels series details view"
           />
@@ -138,7 +142,8 @@ export default function Main() {
             </ul>
           </p>
 
-          <img
+          <img 
+						loading="lazy"
             src="/assets/imgs/parcel-search.jpg"
             alt="parcels reworked and expanded search"
           />

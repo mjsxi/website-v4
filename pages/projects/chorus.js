@@ -59,7 +59,8 @@ export default function Main() {
 
           <p>chorus was an ambitious project undertaken by vox media to help revolutionize the way stories were published on their platforms. this goal was overwhelmingly successful in comparison with offerings from its peers. i was fortunate enough to join the chorus team for over half a year, getting to contribute to story editing and asset management.</p>
 
-          <img
+          <img 
+						loading="lazy"
             src="/assets/imgs/chorus-editor.jpg"
             alt="the chorus editor"
           />
