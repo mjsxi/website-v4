@@ -62,10 +62,25 @@ export default function Main() {
 
           <p>you can see examples of this in action by visiting: <a target="_blank" href="//www.thrillist.com">thrillist</a>, <a target="_blank" href="//www.thedodo.com">the dodo</a>, <a target="_blank" href="//nowthisnews.com">now this</a>, and <a target="_blank" href="//www.seeker.com">seeker</a>. we are currently in the process of moving over another of our brands to this system and it will be added upon its launch.</p>
 
-          <img
-            src="/assets/imgs/pinnacle-articles-desktop.jpg"
+          <div className={styles.gallery}>
+            <img
+            src="/assets/imgs/pinnacle-desktop-article_01.jpg"
             alt="pinnacles articles themed per brand"
-          />
+            />
+            <img
+            src="/assets/imgs/pinnacle-desktop-article_02.jpg"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            src="/assets/imgs/pinnacle-desktop-article_03.jpg"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            src="/assets/imgs/pinnacle-desktop-article_04.jpg"
+            alt="pinnacles articles themed per brand"
+            />
+          </div>
+
           <cite>example of our article components across multiple large screens, each themed for a specific brand under the group nine umbrella</cite>
 
           <img
@@ -74,10 +89,25 @@ export default function Main() {
           />
           <cite>early wireframes of mobile article explorations</cite>
 
-          <img
-            src="/assets/imgs/pinnacle-articles-mobile.jpg"
-            alt="pinnacles mobile articles themed per brand"
-          />
+          <div className={styles.gallery}>
+            <img
+            src="/assets/imgs/pinnacle-mobile-article_01.png"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            src="/assets/imgs/pinnacle-mobile-article_02.png"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            src="/assets/imgs/pinnacle-mobile-article_03.png"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            src="/assets/imgs/pinnacle-mobile-article_04.png"
+            alt="pinnacles articles themed per brand"
+            />
+          </div>
+
           <cite>example of our article components across multiple small screens, each themed for a specific brand under the group nine umbrella</cite>
 
           <h5>high level goals</h5>
@@ -96,10 +126,25 @@ export default function Main() {
           />
           <cite>early wireframes of video nodes explorations</cite>
 
-          <img
-            src="/assets/imgs/pinnacle-video.jpg"
-            alt="pinnacles video nodes themed per brand"
-          />
+          <div className={styles.gallery}>
+            <img
+            src="/assets/imgs/pinnacle-mobile-video_01.png"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            src="/assets/imgs/pinnacle-mobile-video_02.png"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            src="/assets/imgs/pinnacle-mobile-video_03.png"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            src="/assets/imgs/pinnacle-mobile-video_04.png"
+            alt="pinnacles articles themed per brand"
+            />
+          </div>
+
           <cite>an example of a video node component that has been themed for some of group nines brands</cite>
 
           <h5>jumping off point</h5>
@@ -114,7 +159,7 @@ export default function Main() {
             src="/assets/imgs/pinnacle-cards.jpg"
             alt="pinnacles content cards themed for each brand"
           />
-          <cite>one of pinnacles most used components themed to demonstrate its flexibilty across brands</cite>
+          <cite>examples of content cards, one of pinnacles most used components themed to demonstrate its flexibilty across brands</cite>
 
           <h5>challenges</h5>
 
@@ -128,10 +173,25 @@ export default function Main() {
 
           <p>communication was one of the major keys to this being successful.</p>
 
-          <img
-            src="/assets/imgs/pinnacle-landing.jpg"
-            alt="an example of smaller elements in pinnacle"
-          />
+          <div className={styles.gallery}>
+            <img
+            src="/assets/imgs/pinnacle-newspaper_01.jpg"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            src="/assets/imgs/pinnacle-newspaper_02.jpg"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            src="/assets/imgs/pinnacle-newspaper_03.jpg"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            src="/assets/imgs/pinnacle-newspaper_04.jpg"
+            alt="pinnacles articles themed per brand"
+            />
+          </div>
+
           <cite>the brands reusing the same component in different contexts, due to time saved by moving to a scalable system we were able to give each brand its own unique "news paper" component that more aligned with their editorial goals.</cite>
 
           <h5>what does success look like</h5>
