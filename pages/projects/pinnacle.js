@@ -112,16 +112,6 @@ export default function Main() {
 
           <cite>example of our article components across multiple small screens, each themed for a specific brand under the group nine umbrella</cite>
 
-          <h5>high level goals</h5>
-
-          <p>
-            <ul>
-              <li>understanding the needs of our brands and what their baseline is and how this fits into pinnacle.</li>
-              <li>create a single set of themeable tools to help improve our ability to share designs/features across all brands, at scale.</li>
-              <li>improve workflows, and better unify the design, engineering, and pm handoff for new features and iterations.</li>
-            </ul>
-          </p>
-
           <div className={styles.gallery}>
             <img
 						loading="lazy"
@@ -146,6 +136,16 @@ export default function Main() {
           </div>
 
           <cite>an example of a video node component that has been themed for some of group nines brands</cite>
+
+          <h5>high level goals</h5>
+
+          <p>
+            <ul>
+              <li>understanding the needs of our brands and what their baseline is and how this fits into pinnacle.</li>
+              <li>create a single set of themeable tools to help improve our ability to share designs/features across all brands, at scale.</li>
+              <li>improve workflows, and better unify the design, engineering, and pm handoff for new features and iterations.</li>
+            </ul>
+          </p>
 
           <h5>jumping off point</h5>
 
