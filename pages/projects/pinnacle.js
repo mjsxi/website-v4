@@ -63,22 +63,22 @@ export default function Main() {
           <p>you can see examples of this in action by visiting: <a target="_blank" href="//www.thrillist.com">thrillist</a>, <a target="_blank" href="//www.thedodo.com">the dodo</a>, <a target="_blank" href="//nowthisnews.com">now this</a>, and <a target="_blank" href="//www.seeker.com">seeker</a>. we are currently in the process of moving over another of our brands to this system and it will be added upon its launch.</p>
 
           <div className={styles.gallery}>
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-desktop-article_01.jpg"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-desktop-article_02.jpg"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-desktop-article_03.jpg"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-desktop-article_04.jpg"
             alt="pinnacles articles themed per brand"
@@ -87,30 +87,30 @@ export default function Main() {
 
           <cite>example of our article components across multiple large screens, each themed for a specific brand under the group nine umbrella</cite>
 
-          <img 
-						loading="lazy"
-            src="/assets/imgs/pinnacle-articles-mobile_mocks.jpg"
-            alt="pinnacles mobile article wireframes"
-          />
-          <cite>early wireframes of mobile article explorations</cite>
+          // <img
+					// 	loading="lazy"
+          //   src="/assets/imgs/pinnacle-articles-mobile_mocks.jpg"
+          //   alt="pinnacles mobile article wireframes"
+          // />
+          // <cite>early wireframes of mobile article explorations</cite>
 
           <div className={styles.gallery}>
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-article_01.png"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-article_02.png"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-article_03.png"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-article_04.png"
             alt="pinnacles articles themed per brand"
@@ -129,30 +129,30 @@ export default function Main() {
             </ul>
           </p>
 
-          <img 
-						loading="lazy"
-            src="/assets/imgs/pinnacle-video_mocks.jpg"
-            alt="pinnacles video nodes mocks"
-          />
-          <cite>early wireframes of video nodes explorations</cite>
+          // <img
+					// 	loading="lazy"
+          //   src="/assets/imgs/pinnacle-video_mocks.jpg"
+          //   alt="pinnacles video nodes mocks"
+          // />
+          // <cite>early wireframes of video nodes explorations</cite>
 
           <div className={styles.gallery}>
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-video_01.png"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-video_02.png"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-video_03.png"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-video_04.png"
             alt="pinnacles articles themed per brand"
@@ -169,7 +169,7 @@ export default function Main() {
 
           <p>e.g. features and stories across the brands shared a similar core but had diverged in their components and interactions, type system, ui elements such as inputs and fields and how the brand was being expressed.</p>
 
-          <img 
+          <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-cards.jpg"
             alt="pinnacles content cards themed for each brand"
@@ -189,22 +189,22 @@ export default function Main() {
           <p>communication was one of the major keys to this being successful.</p>
 
           <div className={styles.gallery}>
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-newspaper_01.jpg"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-newspaper_02.jpg"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-newspaper_03.jpg"
             alt="pinnacles articles themed per brand"
             />
-            <img 
+            <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-newspaper_04.jpg"
             alt="pinnacles articles themed per brand"
