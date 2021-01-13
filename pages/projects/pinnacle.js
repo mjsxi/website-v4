@@ -87,13 +87,6 @@ export default function Main() {
 
           <cite>example of our article components across multiple large screens, each themed for a specific brand under the group nine umbrella</cite>
 
-          // <img
-					// 	loading="lazy"
-          //   src="/assets/imgs/pinnacle-articles-mobile_mocks.jpg"
-          //   alt="pinnacles mobile article wireframes"
-          // />
-          // <cite>early wireframes of mobile article explorations</cite>
-
           <div className={styles.gallery}>
             <img
 						loading="lazy"
@@ -128,13 +121,6 @@ export default function Main() {
               <li>improve workflows, and better unify the design, engineering, and pm handoff for new features and iterations.</li>
             </ul>
           </p>
-
-          // <img
-					// 	loading="lazy"
-          //   src="/assets/imgs/pinnacle-video_mocks.jpg"
-          //   alt="pinnacles video nodes mocks"
-          // />
-          // <cite>early wireframes of video nodes explorations</cite>
 
           <div className={styles.gallery}>
             <img
