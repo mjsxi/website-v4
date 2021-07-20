@@ -42,7 +42,7 @@ export default function Main() {
 
           <div className={styles.spacer}>If you found this while inspecting the page and can see this good on ya! I couldn't get css grid to do exactly what I wanted so I hacked in this spacer to get the grid to play nice!</div>
 
-          <h3>— pinnacle design system<span>(2020-present)</span></h3>
+          <h3>— pinnacle<span>(2020-present)</span></h3>
           <p className={styles.intro}>for the last year, I’ve been working on a project at group nine called pinnacle&sup3;, this is one of the most ambitious initiatives group nine has ever undertaken for its home grown sites. this project touches everything from the back-end data structures to front-end implementation and design.</p>
 
           <div className={styles.contributions}>
