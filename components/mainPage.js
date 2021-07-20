@@ -25,7 +25,7 @@ const MainPage = () => (
           },
         }}
       >
-        <span>hi im matt sullivan</span>, i'm a product designer in new york city, my main focus is around helping build out design systems and supporting teams to achieve success with understanding, empathy, and support.
+        <span>hi im matt sullivan</span>, i'm a product designer in new york city, i love systems based design, workflows, and supporting teams to achieve success with understanding, empathy, and collaboration.
       </motion.h1>
     </div>
     <div className={styles.subhead}>
