@@ -78,11 +78,11 @@ export default function Main() {
             src="/assets/imgs/pinnacle-desktop-article_03.jpg"
             alt="pinnacles articles themed per brand"
             />
-            <img
-						loading="lazy"
-            src="/assets/imgs/pinnacle-desktop-article_04.jpg"
-            alt="pinnacles articles themed per brand"
-            />
+            // <img
+						// loading="lazy"
+            // src="/assets/imgs/pinnacle-desktop-article_04.jpg"
+            // alt="pinnacles articles themed per brand"
+            // />
           </div>
 
           <cite>example of our article components across multiple large screens, each themed for a specific brand under the group nine umbrella</cite>
