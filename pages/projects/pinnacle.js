@@ -85,27 +85,27 @@ export default function Main() {
           <div className={styles.gallery}>
             <img
 						loading="lazy"
-            src="/assets/imgs/pinnacle-mobile-article_01.png"
+            src="/assets/imgs/pinnacle-mobile-cities_01.png"
             alt="pinnacles articles themed per brand"
             />
             <img
 						loading="lazy"
-            src="/assets/imgs/pinnacle-mobile-article_02.png"
+            src="/assets/imgs/pinnacle-mobile-cities_02.png"
             alt="pinnacles articles themed per brand"
             />
             <img
 						loading="lazy"
-            src="/assets/imgs/pinnacle-mobile-article_03.png"
+            src="/assets/imgs/pinnacle-mobile-cities_03.png"
             alt="pinnacles articles themed per brand"
             />
             <img
 						loading="lazy"
-            src="/assets/imgs/pinnacle-mobile-article_04.png"
+            src="/assets/imgs/pinnacle-mobile-cities_04.png"
             alt="pinnacles articles themed per brand"
             />
           </div>
 
-          <cite>example of our article components across multiple small screens, each themed for a specific brand under the group nine umbrella</cite>
+          <cite>examples from a redesign of our mobile cities pages. this used multiple new components designed and developed to bring more value to every page view.</cite>
 
           <div className={styles.gallery}>
             <img
