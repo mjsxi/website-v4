@@ -182,7 +182,7 @@ export default function Main() {
             src="/assets/imgs/pinnacle-cards.jpg"
             alt="pinnacles content cards themed for each brand"
           />
-          <cite>examples of some components used in our design syscomponents themed for thrillist cities pages
+          <cite>examples of some components used in our design syscomponents themed for thrillist cities pages</cite>
 
           <h5>what does success look like</h5>
 
