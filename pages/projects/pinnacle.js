@@ -120,27 +120,37 @@ export default function Main() {
             />
           </div>
 
-          <cite>examples from a recent redesign of thrillists mobile cities pages. we designed and developed multiple new components to help bring more value to our readers as they browse whats local to them!</cite>
+          <cite>examples from a recent redesign of thrillists mobile cities pages. we designed and developed multiple new components to help bring more value to our readers as they browse whats local to them</cite>
 
           <div className={styles.gallery}>
             <img
             loading="lazy"
-            src="/assets/imgs/pinnacle-newspaper_01.jpg"
+            src="/assets/imgs/pinnacle-dekstop-spotlight_01.jpg"
             alt="pinnacles articles themed per brand"
             />
             <img
             loading="lazy"
-            src="/assets/imgs/pinnacle-newspaper_02.jpg"
+            src="/assets/imgs/pinnacle-mobile-spotlight_01.jpg"
             alt="pinnacles articles themed per brand"
             />
             <img
             loading="lazy"
-            src="/assets/imgs/pinnacle-newspaper_03.jpg"
+            src="/assets/imgs/pinnacle-dekstop-newspaper_02.jpg"
             alt="pinnacles articles themed per brand"
             />
             <img
             loading="lazy"
-            src="/assets/imgs/pinnacle-newspaper_04.jpg"
+            src="/assets/imgs/pinnacle-mobile-newspaper_02.jpg"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            loading="lazy"
+            src="/assets/imgs/pinnacle-dekstop-collection_03.jpg"
+            alt="pinnacles articles themed per brand"
+            />
+            <img
+            loading="lazy"
+            src="/assets/imgs/pinnacle-mobile-collection_03.jpg"
             alt="pinnacles articles themed per brand"
             />
           </div>
