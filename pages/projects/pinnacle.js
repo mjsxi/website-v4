@@ -105,7 +105,7 @@ export default function Main() {
             />
           </div>
 
-          <cite>examples from a redesign of thrillists mobile cities pages. this used multiple new components designed and developed to bring more value to every page view increasing user satisfaction.</cite>
+          <cite>examples from a recent redesign of thrillists mobile cities pages. we designed and developed multiple new components to help bring more value to our readers as they browse whats local to them!</cite>
 
           <div className={styles.gallery}>
             <img
