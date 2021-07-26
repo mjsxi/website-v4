@@ -178,6 +178,7 @@ export default function Main() {
           <p>communication was one of the major keys to this being successful.</p>
 
           <img
+            className={styles.fullBleed}
             loading="lazy"
             src="/assets/imgs/pinnacle-cards.jpg"
             alt="pinnacles content cards themed for each brand"

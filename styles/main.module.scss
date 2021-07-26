@@ -304,8 +304,11 @@
   img {
     margin-top: 24px;
     margin-bottom: 8px;
-    grid-column: 1 / span 16;
+    grid-column: 3 / span 12;
 
+    &.fullBleed {
+      grid-column: 1 / span 16;
+    }
   }
 
   p {
