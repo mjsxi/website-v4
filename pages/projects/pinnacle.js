@@ -60,7 +60,7 @@ export default function Main() {
 
           <p>pinnacle at its core is the goal to get every group nine site onto one shared platform, this is built upon a single scalable codebase that has a shared design system across every brand expression. this required a massive rework of our old platform pinnacle&sup2; and included a complete refactoring of both engineering tools and how we as designers approach problems. this project has been in progress over the last year and has touch multiple brands and is continually being iterated and improved upon as expectations grow.</p>
 
-          <p>you can see examples of this in action by visiting: <a target="_blank" href="//www.thrillist.com">thrillist</a>, <a target="_blank" href="//www.thedodo.com">the dodo</a>, <a target="_blank" href="//nowthisnews.com">now this</a>, and <a target="_blank" href="//www.seeker.com">seeker</a>. we are currently in the process of moving over another of our brands to this system and it will be added upon its launch.</p>
+          <p>you can see examples of this in action by visiting: <a target="_blank" href="//www.thrillist.com">thrillist</a>, <a target="_blank" href="//www.thedodo.com">the dodo</a>, <a target="_blank" href="//nowthisnews.com">now this</a>, <a target="_blank" href="//www.seeker.com">seeker</a>, and <a target="_blank" href="//www.popsugar.com">popsugar</a>. we are currently in the process of moving over another of our brands to this system and it will be added upon its launch.</p>
 
           <div className={styles.gallery}>
             <img
