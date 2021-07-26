@@ -66,32 +66,32 @@ export default function Main() {
             <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-desktop-article_01.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles desktop article themed for thrillist"
             />
             <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-article_01.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles mobile article themed for thrillist"
             />
             <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-desktop-article_02.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles desktop article themed for popsugar"
             />
             <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-article_02.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles mobile article themed for popsugar"
             />
             <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-desktop-article_03.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles desktop article themed for nowthis"
             />
             <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-article_03.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles mobile article themed for nowthis"
             />
           </div>
 
@@ -101,22 +101,22 @@ export default function Main() {
             <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-cities_01.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles components themed for thrillist cities pages"
             />
             <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-cities_02.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles components themed for thrillist cities pages"
             />
             <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-cities_03.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles components themed for thrillist cities pages"
             />
             <img
 						loading="lazy"
             src="/assets/imgs/pinnacle-mobile-cities_04.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles components themed for thrillist cities pages"
             />
           </div>
 
@@ -182,7 +182,7 @@ export default function Main() {
             src="/assets/imgs/pinnacle-cards.jpg"
             alt="pinnacles content cards themed for each brand"
           />
-          <cite>examples of some components used in our design system for the brands</cite>
+          <cite>examples of some components used in our design syscomponents themed for thrillist cities pages
 
           <h5>what does success look like</h5>
 
