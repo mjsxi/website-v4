@@ -125,32 +125,32 @@ export default function Main() {
           <div className={styles.gallery}>
             <img
             loading="lazy"
-            src="/assets/imgs/pinnacle-dekstop-spotlight_01.jpg"
+            src="/assets/imgs/pinnacle-dekstop-spotlight_01.png"
             alt="pinnacles articles themed per brand"
             />
             <img
             loading="lazy"
-            src="/assets/imgs/pinnacle-mobile-spotlight_01.jpg"
+            src="/assets/imgs/pinnacle-mobile-spotlight_01.png"
             alt="pinnacles articles themed per brand"
             />
             <img
             loading="lazy"
-            src="/assets/imgs/pinnacle-dekstop-newspaper_02.jpg"
+            src="/assets/imgs/pinnacle-dekstop-newspaper_02.png"
             alt="pinnacles articles themed per brand"
             />
             <img
             loading="lazy"
-            src="/assets/imgs/pinnacle-mobile-newspaper_02.jpg"
+            src="/assets/imgs/pinnacle-mobile-newspaper_02.png"
             alt="pinnacles articles themed per brand"
             />
             <img
             loading="lazy"
-            src="/assets/imgs/pinnacle-dekstop-collection_03.jpg"
+            src="/assets/imgs/pinnacle-dekstop-collection_03.png"
             alt="pinnacles articles themed per brand"
             />
             <img
             loading="lazy"
-            src="/assets/imgs/pinnacle-mobile-collection_03.jpg"
+            src="/assets/imgs/pinnacle-mobile-collection_03.png"
             alt="pinnacles articles themed per brand"
             />
           </div>
