@@ -165,13 +165,6 @@ export default function Main() {
 
           <p>e.g. features and stories across the brands shared a similar core but had diverged in their components and interactions, type system, ui elements such as inputs and fields and how the brand was being expressed.</p>
 
-          <img
-						loading="lazy"
-            src="/assets/imgs/pinnacle-cards.jpg"
-            alt="pinnacles content cards themed for each brand"
-          />
-          <cite>examples of some components used in our design system for the brands</cite>
-
           <h5>challenges</h5>
 
           <p>with multiple sites and sub-brands to consider, we've faced some sticky points throughout this overhaul, some of which include:</p>
@@ -183,6 +176,13 @@ export default function Main() {
           <p><strong>moving sites to a new platform while rebranding them.</strong> while designing and finding harmony between users we also needed to account for the brands getting refreshed as pinnacle&sup3; was in development. thrillist, the dodo, and seeker all received brand overhauls while we were in progress of migrating these brands to our new platform. this brought with it a few challenges i'd like to highlight — we were actively developing new features and components and needed to figure out how to work within a space where not all the brand elements were clearly defined. we often found ourselves needing to meet things that were out of our control such as launch windows, and expectations from other partners (such as sales and revenue). this often led us to needing to be thoughtful and hyper clear on feedback, timelines, success v failure, and a litany of smaller pieces that all go into a success product launch.</p>
 
           <p>communication was one of the major keys to this being successful.</p>
+
+          <img
+            loading="lazy"
+            src="/assets/imgs/pinnacle-cards.jpg"
+            alt="pinnacles content cards themed for each brand"
+          />
+          <cite>examples of some components used in our design system for the brands</cite>
 
           <h5>what does success look like</h5>
 
