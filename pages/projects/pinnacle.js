@@ -95,7 +95,7 @@ export default function Main() {
             />
           </div>
 
-          <cite>example of our article components across multiple large screens, each themed for a specific brand under the group nine umbrella</cite>
+          <cite>example of our article components across multiple screens, each themed for a specific brand under the group nine umbrella</cite>
 
           <div className={styles.gallery}>
             <img
@@ -120,42 +120,42 @@ export default function Main() {
             />
           </div>
 
-          <cite>examples from a recent redesign of thrillists mobile cities pages. we designed and developed multiple new components to help bring more value to our readers as they browse whats local to them</cite>
+          <cite>examples from a recent redesign of thrillists mobile cities pages, we designed and developed multiple new components to help bring more value to our readers as they browse whats local to them</cite>
 
           <div className={styles.gallery}>
             <img
             loading="lazy"
             src="/assets/imgs/pinnacle-desktop-spotlight_01.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles desktop spotlight pattern"
             />
             <img
             loading="lazy"
             src="/assets/imgs/pinnacle-mobile-spotlight_01.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles mobile spotlight pattern"
             />
             <img
             loading="lazy"
             src="/assets/imgs/pinnacle-desktop-newspaper_02.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles desktop newspaper pattern"
             />
             <img
             loading="lazy"
             src="/assets/imgs/pinnacle-mobile-newspaper_02.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles mobile newspaper pattern"
             />
             <img
             loading="lazy"
             src="/assets/imgs/pinnacle-desktop-collection_03.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles desktop collection pattern"
             />
             <img
             loading="lazy"
             src="/assets/imgs/pinnacle-mobile-collection_03.png"
-            alt="pinnacles articles themed per brand"
+            alt="pinnacles mobile collection pattern"
             />
           </div>
 
-          <cite>the brands reusing the same component in different contexts, due to time saved by moving to a scalable system we were able to give each brand its own unique "news paper" component that more aligned with their editorial goals.</cite>
+          <cite>brands have access to a variety of our components and  patterns heres and example of a few in different contexts, due to time saved by moving to a scalable system we aer able to give each brand its own unique look that more aligned with their editorial goals</cite>
 
           <h5>high level goals</h5>
 
@@ -191,9 +191,9 @@ export default function Main() {
             className={styles.fullBleed}
             loading="lazy"
             src="/assets/imgs/pinnacle-cards.jpg"
-            alt="pinnacles content cards themed for each brand"
+            alt="pinnacles components themed for a few brands"
           />
-          <cite>examples of some components used in our design syscomponents themed for thrillist cities pages</cite>
+          <cite>examples of some components used in our design system themed for the variety of brands they support</cite>
 
           <h5>what does success look like</h5>
 
