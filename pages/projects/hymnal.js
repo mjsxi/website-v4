@@ -57,7 +57,7 @@ export default function Main() {
           </div>
 
           <div className={styles.notice}>
-            <p><strong>notice:</strong> this project hasn't been updated since 2017 and might not fully cover all the contributions and breadth of work completed.</p>
+            <p><strong>notice:</strong> this project hasn't been updated since 2016 and might not fully cover all the contributions and breadth of work completed.</p>
           </div>
 
           <h5>overview</h5>
@@ -66,7 +66,7 @@ export default function Main() {
 
           <p>the goal was to make creating and building ads a better experience along with reducing user friction at certain pain points in the ad execution process by rethinking and modernizing the tool.</p>
 
-          <img 
+          <img
 						loading="lazy"
             src="/assets/imgs/hymnal-ad-overview.jpg"
             alt="the hymnal apps main ad view"
@@ -95,28 +95,28 @@ export default function Main() {
 
           <p>we resolved this by reworking the tool to use a design paradigm found in code editors. this made it easier for users to see what options were available while leaning into tools they were already comfortable with using. by doing this, it let us better organize the information we were presenting to users so they could easily and efficiently create and distribute ads on our platform.</p>
 
-          <img 
+          <img
 						loading="lazy"
             src="/assets/imgs/hymnal-ad-fields.jpg"
             alt="the hymnal apps asset field view"
           />
           <cite>this is hymnals asset population fields, users add assets to build our ads from this view</cite>
 
-          <img 
+          <img
 						loading="lazy"
             src="/assets/imgs/hymnal-ad-code.jpg"
             alt="the hymnal apps code view"
           />
           <cite>this is hymnals code view, users add fuctionality and interactivity to our ads from this view</cite>
 
-          <img 
+          <img
 						loading="lazy"
             src="/assets/imgs/hymnal-ad-split-view.jpg"
             alt="the hymnal apps asset and code split view"
           />
           <cite>a split view to help users when hopping between assets and code views in quick succession</cite>
 
-          <img 
+          <img
 						loading="lazy"
             src="/assets/imgs/hymnal-ad-testing.jpg"
             alt="the hymnal apps main screen"
