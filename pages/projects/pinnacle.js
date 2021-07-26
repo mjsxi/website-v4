@@ -124,28 +124,28 @@ export default function Main() {
 
           <div className={styles.gallery}>
             <img
-						loading="lazy"
-            src="/assets/imgs/pinnacle-mobile-video_01.png"
+            loading="lazy"
+            src="/assets/imgs/pinnacle-newspaper_01.jpg"
             alt="pinnacles articles themed per brand"
             />
             <img
-						loading="lazy"
-            src="/assets/imgs/pinnacle-mobile-video_02.png"
+            loading="lazy"
+            src="/assets/imgs/pinnacle-newspaper_02.jpg"
             alt="pinnacles articles themed per brand"
             />
             <img
-						loading="lazy"
-            src="/assets/imgs/pinnacle-mobile-video_03.png"
+            loading="lazy"
+            src="/assets/imgs/pinnacle-newspaper_03.jpg"
             alt="pinnacles articles themed per brand"
             />
             <img
-						loading="lazy"
-            src="/assets/imgs/pinnacle-mobile-video_04.png"
+            loading="lazy"
+            src="/assets/imgs/pinnacle-newspaper_04.jpg"
             alt="pinnacles articles themed per brand"
             />
           </div>
 
-          <cite>an example of a video node component that has been themed for some of group nines brands</cite>
+          <cite>the brands reusing the same component in different contexts, due to time saved by moving to a scalable system we were able to give each brand its own unique "news paper" component that more aligned with their editorial goals.</cite>
 
           <h5>high level goals</h5>
 
@@ -183,31 +183,6 @@ export default function Main() {
           <p><strong>moving sites to a new platform while rebranding them.</strong> while designing and finding harmony between users we also needed to account for the brands getting refreshed as pinnacle&sup3; was in development. thrillist, the dodo, and seeker all received brand overhauls while we were in progress of migrating these brands to our new platform. this brought with it a few challenges i'd like to highlight — we were actively developing new features and components and needed to figure out how to work within a space where not all the brand elements were clearly defined. we often found ourselves needing to meet things that were out of our control such as launch windows, and expectations from other partners (such as sales and revenue). this often led us to needing to be thoughtful and hyper clear on feedback, timelines, success v failure, and a litany of smaller pieces that all go into a success product launch.</p>
 
           <p>communication was one of the major keys to this being successful.</p>
-
-          <div className={styles.gallery}>
-            <img
-						loading="lazy"
-            src="/assets/imgs/pinnacle-newspaper_01.jpg"
-            alt="pinnacles articles themed per brand"
-            />
-            <img
-						loading="lazy"
-            src="/assets/imgs/pinnacle-newspaper_02.jpg"
-            alt="pinnacles articles themed per brand"
-            />
-            <img
-						loading="lazy"
-            src="/assets/imgs/pinnacle-newspaper_03.jpg"
-            alt="pinnacles articles themed per brand"
-            />
-            <img
-						loading="lazy"
-            src="/assets/imgs/pinnacle-newspaper_04.jpg"
-            alt="pinnacles articles themed per brand"
-            />
-          </div>
-
-          <cite>the brands reusing the same component in different contexts, due to time saved by moving to a scalable system we were able to give each brand its own unique "news paper" component that more aligned with their editorial goals.</cite>
 
           <h5>what does success look like</h5>
 
